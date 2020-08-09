@@ -235,3 +235,50 @@ The theme is available as open source under the terms of the [MIT License](https
 
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](http://liabogoev.com) and under the MIT license).
 Since then, it got a full re-write of the styles and many additional cool features.
+
+# Files I changed
+
+## _includes/head
+
+added google analytics tags?
+
+##  _includes/footer
+
+added contact icons
+
+## layouts/about
+
+```{markdown}
+<div class="profile col-4 {% if page.profile.align == 'left' %}order-first{% endif %}">
+          {% if page.profile.image %}
+            <img class="img-fluid z-depth-1 rounded" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
+```
+
+```{markdown}
+<img class="headshot" src="{{ page.profile.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
+```
+      
+
+## layouts/page.html
+
+added to bottom:
+```{markdown}
+{% if page.updates %}
+    {% include updates.html %}
+  {% endif %}
+  
+  {% if page.news %}
+    {% include news.html %}
+  {% endif %}
+
+  {% if page.social %}
+    {% include social.html %}
+  {% endif %}
+```
+
+## launching
+
+1) Open repo in terminal: cd /Users/brittneybailey/Dropbox\ \(Amherst\ College\)/professional/bebailey.github.io  
+2) git add .
+3) git commit -m "message!!"
+4) ./bin/deploy --user

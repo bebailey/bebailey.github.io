@@ -13,7 +13,7 @@
       {% endif %}
       {% assign lastname = name | last %}
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-       <span class="font-weight-bold">{{ firstname }}</span> {{ middlenames }}  {{ lastname }}
+       <span class="font-weight-bold">{{ firstname }} {{ middlenames }}  {{ lastname }}</span>
       </a>
       {% elsif site.show_social_icons %}
         <!-- Social Icons -->
@@ -39,17 +39,6 @@
               {% endif %}
             </a>
           </li>
-          {% if site.blog_name %}
-          <!-- Blog -->
-          <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/blog/' | relative_url }}">
-              blog
-              {% if page.title == "blog" %}
-              <span class="sr-only">(current)</span>
-              {% endif %}
-            </a>
-          </li>
-          {% endif %}
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: "title" %}
           {% for p in sorted_pages %}
@@ -64,6 +53,26 @@
           </li>
           {% endif %}
           {% endfor %}
+          <!-- CV -->
+          <li class="nav-item {% if page.url == 'cv' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/cv/Bailey_CV.pdf' | relative_url }}">
+              vita
+              {% if page.title == "vita" %}
+              <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+          </li>
+          {% if site.blog_name %}
+          <!-- Blog -->
+          <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/blog/' | relative_url }}">
+              blog
+              {% if page.title == "blog" %}
+              <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+          </li>
+          {% endif %}
         </ul>
       </div>
     </div>
