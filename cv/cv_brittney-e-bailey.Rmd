@@ -5,7 +5,7 @@ output:
   pdf_document:
     fig_height: 2
     fig_width: 3.5
-    keep_tex: true
+    keep_tex: false
     latex_engine: lualatex
     number_section: true
 subparagraph: yes
@@ -707,7 +707,7 @@ National Achievement Scholarship \hfill 2006 -- 2007.
 *Harvard Data Science Review*, <!--July 2020-->
 *International Journal of Data Science and Analytics*, <!--April 2018-->
 *Journal of Statistics Education*, <!--December 2018, February 2019-->
-*Statistics in Medicine*, <!--August 2017-->
+*Statistics in Medicine* <!--August 2017-->
 
 ### Panelist, StatFest Graduate Student Experience Panel.
 <!--Invited Panel with Jemar Bather, Dominique McDaniel, and Brittany Green. -->
@@ -768,7 +768,7 @@ SCT. Montreal, Quebec, May 2016
 * Zach Brown '19, *Using EM methods to handle data below the lower limit of detection*
 
 <!-- ## Major Advisees to Date: 7 -->
-
+<!--
 ## Additional service by academic year
 
 ### 2020 - 2021
@@ -777,7 +777,7 @@ SCT. Montreal, Quebec, May 2016
 * Coordinated nomination of students to Mu Sigma Rho Statistics Honor Society 
 * Took notes for Statistics subgroup meetings and Mellon meetings 
 *	Maintained Statistics Thesis template 
--->
+--
 
 ### 2019 - 2020
 *	Evaluated Statistics Comprehensive Evaluation reports
@@ -798,7 +798,7 @@ SCT. Montreal, Quebec, May 2016
 * Mentored student through first attempt of Statistics Comprehensive Evaluation
 * Took notes for Statistics subgroup meetings and Mellon meetings
 * Co-organized nomination of students to Mu Sigma Rho Statistics Honor Society
-
+-->
 
 # Professional Memberships
 
