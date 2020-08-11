@@ -1,11 +1,10 @@
 ---
 classoption: fleqn, oneside
-geometry: margin = 1in, verbose
+geometry: margin = 1in
 output:
   pdf_document:
     fig_height: 2
     fig_width: 3.5
-    keep_tex: false
     latex_engine: lualatex
     number_section: true
 subparagraph: yes
@@ -23,7 +22,7 @@ header-includes:
     {}{0mm}{}[]
   - >
     \titleformat{\subsubsection}[hang]{\medskip\normalsize\bfseries}
-    {}{0mm}{}[]
+    {}{0mm}{}[\vspace{-11pt}]
   - >
     \titleformat{\paragraph}[runin]{\medskip\normalsize}
     {}{0mm}{}[]
@@ -105,13 +104,22 @@ Columbus, OH
 Grantham, PA
 
 <!------------------------------------------------------------------------------>
-# Research Positions
+# Appointments
 
-### Postdoctoral Fellow \hfill\normalfont 2018 -- 2020
+### Assistant Professor of Statistics \hfill\normalfont 2020 -- Present
 [Amherst College](amherst.edu),
 Department of Mathematics and Statistics
 \newline
 Amherst, MA
+
+### Postdoctoral Fellow and Visiting Assistant Professor of Statistics \hfill\normalfont 2018 -- 2020
+[Amherst College](amherst.edu),
+Department of Mathematics and Statistics
+\newline
+Amherst, MA
+
+
+# Research Positions
 
 <!--
 ### Doctoral Candidate \hfill\normalfont 2013 -- 2018
@@ -205,7 +213,7 @@ Implemented a Monte-Carlo simulation study to investigate discrepancies in the d
 
 Motivating data were from the [Atherosclerosis Risk in Communities (ARIC) study](https://www.nhlbi.nih.gov/research/resources/obesity/population/aric.htm)} 
 -->
-
+<!--
 ### Computational Biology and Biostatistics Summer Intern \hfill\normalfont 2009
 University of Wisconsin [Integrated Biological Sciences Summer Research Program](https//www.biostat.wisc.edu/content/computational-biology-and-biostatistics-summer-research-program-cbb)
 \newline
@@ -219,14 +227,14 @@ Madison, WI
 
 <!--
 May -- August 2009
--->
+--
 
 ### Mathematics Intern \hfill\normalfont 2009
 Department of Defense High Performance Computing Modernization Program, Army Research Laboratory, [Joint Educational Opportunities for Minorities (JEOM) Internship](http//www.hpcmo.hpc.mil/community/JEOM/index.php)
 \newline
 Aberdeen, MD
 
-<!-- May -- August 2009-->
+<!-- May -- August 2009--
 
 #### Advisor: James Ianni, *Senior Software Engineer*
 
@@ -471,29 +479,36 @@ April 2015.
 		
 # Teaching Experience
 
+## Amherst College
+
 ### Assistant Professor of Statistics \hfill\normalfont 2020 -- Present
+<!--
 Amherst College, Department of Mathematics and Statistics
 \newline
 Amherst, MA
+-->
 
 * STAT 135: Introduction to Statistics via Modeling, *Fall 2020*
 
 ### Visiting Assistant Professor of Statistics \hfill\normalfont 2018 -- 2020
+<!--
 Amherst College, Department of Mathematics and Statistics
 \newline
 Amherst, MA
+-->
 
 * STAT 230: Intermediate Statistics, *Fall 2019*
-
 * STAT 135: Introduction to Statistics via Modeling, *Fall 2018, Spring 2019*
 
-
+## The Ohio State University
 
 ### Teaching Assistant \hfill\normalfont 2014 -- 2015 
 <!--August 2014 -- May 2015-->
+<!--
 The Ohio State University College of Public Health, Division of Biostatistics
 \newline
 Columbus, OH
+-->
 
 * PUBHBIO 2210H: Honors Biostatistics for Public Health Research, *Spring 2015*
 * PUBHBIO 2210: Biostatistics for Public Health Research, *Autumn 2014, Spring 2015*
@@ -501,63 +516,80 @@ Columbus, OH
 
 ### Online Course Design Assistant \hfill\normalfont 2014
 <!--May -- August 2014-->
+<!--
 The Ohio State University College of Public Health, Division of Biostatistics\newline
 Columbus, OH
+-->
 
-* PUBHBIO 6210: Design and Analysis of Studies in the Health Sciences I
+> Recorded instructional examples for first online version of PUBHBIO 6210: Design and Analysis of Studies in the Health Sciences I
 
-> Recorded instructional examples for the online version of PUBHBIO 6210.
 
 
 ### Grader \hfill\normalfont 2013 -- 2014
 <!-- August 2013 -- May 2014 -->
+<!--
 The Ohio State University College of Public Health, Division of Biostatistics
 \newline
 Columbus, OH
+-->
 
 * PUBHBIO 6211: Design and Analysis of Studies in the Health Sciences II, *Spring 2014*
 * PUBHBIO 6210: Design and Analysis of Studies in the Health Sciences I, *Autumn 2013* 
 
-
-### Adjunct Instructor of Statistics \hfill\normalfont 2013 - 2014
-<!-- May 2013 -- December 2014 -->
-Columbus State Community College, Mathematics Department
-\newline
-Columbus, OH
-
-* STAT 1350: Elementary Statistics, *Summer 2013, Autumn 2013, Spring 2014, Autumn 2014*
-* STAT 2450: Introduction to Statistical Analysis, *Summer 2013*
-
 ### Teaching Assistant \hfill\normalfont 2012 -- 2013
 <!-- September 2011 - May 2013 -->
+<!--
 The Ohio State University, Department of Statistics
 \newline
 Columbus, OH
+-->
 
 * STAT1450: Introduction to the Practice of Statistics, *Spring 2012, Autumn 2012, Spring 2013*
 * STAT135: Elementary Statistics, *Winter 2012*
 
 ### Grader \hfill\normalfont 2012
 <!-- March -- June 2012 -->
+<!--
 The Ohio State University, Department of Statistics
 \newline
 Columbus, OH
+-->
 
 * STAT 427: Introduction to Probability and Statistics, *Spring 2012* 
 
 ### Lecturer \hfill\normalfont 2011
 <!-- September 2011 - December 2011 -->
+<!--
 The Ohio State University, Department of Statistics
 \newline
 Columbus, OH
+-->
 
 * STAT1450: Introduction to the Practice of Statistics, *Autumn 2011*
 
+## Columbus State Community College
+
+### Adjunct Instructor of Statistics \hfill\normalfont 2013 - 2014
+<!-- May 2013 -- December 2014 -->
+<!--
+Columbus State Community College, Mathematics Department
+\newline
+Columbus, OH
+-->
+
+* STAT 1350: Elementary Statistics, *Summer 2013, Autumn 2013, Spring 2014, Autumn 2014*
+* STAT 2450: Introduction to Statistical Analysis, *Summer 2013*
+
+<!--
+## Messiah College
+
 ### Grader \hfill\normalfont 2008 -- 2010
-<!-- August 2008 -- May 2010 -->
+<!-- August 2008 -- May 2010 --
+<!--
 Messiah College, Department of Information and Mathematical Sciences
 \newline
 Grantham, PA
+--
 
 * STAT 292: Statistics for the Mathematical Sciences II, *Spring 2010*
 * MATH 107: Applied Mathematics for Management, *Fall 2009, Spring 2010*
@@ -565,7 +597,7 @@ Grantham, PA
 * MATH 112: Calculus II, *Spring 2009*
 * STAT 269: Introductory Statistics, *Fall 2008, Spring 2009*
 * MATH 111: Calculus I, *Fall 2008*
-
+-->
 
 # Professional Development Opportunities
 
@@ -668,23 +700,25 @@ Lester R. Curtin Award, American Statistical Association \hfill 2016
 University Fellow, The Ohio State University \hfill 2010 -- 2011
 <!--Nominated by Statistics Department to receive support for first year of graduate school.-->
 	
-Lubrizol Early Acceptance Award, The Ohio State University \hfill 2010
-
+Lubrizol Foundation Fellowship, The Ohio State University \hfill 2010
+<!--$1500 https://stat.osu.edu/sites/stat.osu.edu/files/2011-statistics-newsletter.pdf-->
+<!--
 Ernest L. Boyer Scholar, Messiah College \hfill 2010
 <!--	Awarded to 3rd-year students who demonstrate a commitment to education, 
-	community engagement, and service.-->
+	community engagement, and service.--
 
 Academic Dean's List, Messiah College \hfill 2006 -- 2010
 
 Provost's Scholarship, Messiah College \hfill 2006 -- 2010
-<!--Merit-based scholarship for excellent high school GPA, class rank, and ACT score.-->
+<!--Merit-based scholarship for excellent high school GPA, class rank, and ACT score.--
 	
 Lloyd and Lois Martin Multicultural Scholarship, Messiah College \hfill 2006 -- 2010
-<!--Awarded to students who demonstrate strong scholarship and service, ministry, or leadership in their school, church, or community and are committed to promoting racial and ethnic diversity and reconciliation.-->
+<!--Awarded to students who demonstrate strong scholarship and service, ministry, or leadership in their school, church, or community and are committed to promoting racial and ethnic diversity and reconciliation.--
 
 Sigma Zeta National Science and Mathematics Honor Society \hfill 2008 -- 2010.
 
 National Achievement Scholarship \hfill 2006 -- 2007.
+-->
 
 # National Service
 
@@ -701,7 +735,7 @@ National Achievement Scholarship \hfill 2006 -- 2007.
 
 ### Referree \hfill\normalfont 2017 -- Present
 
-* Journals in alphabetical order include *BMC Public Health*, <!--November 2019-->
+> Journals in alphabetical order include *BMC Public Health*, <!--November 2019-->
 *Clinical Trials*, <!--December 2019, May 2020-->
 *Epidemiology*, <!--August 2020-->
 *Harvard Data Science Review*, <!--July 2020-->
@@ -751,11 +785,11 @@ SCT. Montreal, Quebec, May 2016
 
 ###	Quantitative Module Development (Amy Coddington) \hfill\normalfont Fall 2019
 
-* Developed a quantitative module for graph design and analysis in First Year Seminar, *What is Mainstream Music?*. 
+> Developed a quantitative module for graph design and analysis in First Year Seminar, *What is Mainstream Music?*. 
 <!-- $2500 -->
 
 ### Mead Art Museum Consultation (Emily Potter-Ndiaye)
-* Evaluated attendance records with Juhwan Jeong '20, *4hrs* \hfill Spring 2019
+> Evaluated attendance records with Juhwan Jeong '20, *4hrs* \hfill Spring 2019
 
 # Departmental Service
 
@@ -768,16 +802,16 @@ SCT. Montreal, Quebec, May 2016
 * Zach Brown '19, *Using EM methods to handle data below the lower limit of detection*
 
 <!-- ## Major Advisees to Date: 7 -->
-<!--
+
+<!-- INCLUDE FOR ANNUAL REVIEW
 ## Additional service by academic year
 
 ### 2020 - 2021
 * Advised 7 Statistics majors
-<!--
 * Coordinated nomination of students to Mu Sigma Rho Statistics Honor Society 
 * Took notes for Statistics subgroup meetings and Mellon meetings 
 *	Maintained Statistics Thesis template 
---
+
 
 ### 2019 - 2020
 *	Evaluated Statistics Comprehensive Evaluation reports
