@@ -18,7 +18,7 @@ header-includes:
     \titleformat{\section}[hang]{\bigskip\scshape\LARGE}
     {}{0mm}{}[]
   - >
-    \titleformat{\subsection}[hang]{\medskip\large\bfseries}
+    \titleformat{\subsection}[hang]{\medskip\large}
     {}{0mm}{}[]
   - >
     \titleformat{\subsubsection}[hang]{\medskip\normalsize\bfseries}
@@ -803,7 +803,8 @@ SCT. Montreal, Quebec, May 2016
 
 <!-- ## Major Advisees to Date: 7 -->
 
-<!-- INCLUDE FOR ANNUAL REVIEW
+<!-- INCLUDE FOR ANNUAL REVIEW -->
+<!--
 ## Additional service by academic year
 
 ### 2020 - 2021
