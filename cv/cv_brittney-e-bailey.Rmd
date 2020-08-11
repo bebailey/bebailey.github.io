@@ -1,0 +1,1064 @@
+---
+classoption: fleqn, oneside
+geometry: margin = 1in, verbose
+output:
+  pdf_document:
+    fig_height: 2
+    fig_width: 3.5
+    keep_tex: true
+    latex_engine: lualatex
+    number_section: true
+subparagraph: yes
+header-includes:
+  - \usepackage{dashrule, fancyhdr, lastpage, calc}
+  - \usepackage[compact]{titlesec}
+ # - \usepackage{cuprum}
+  - \usepackage{fontspec}
+  - \setmainfont{FreeSans}
+  - >
+    \titleformat{\section}[hang]{\bigskip\scshape\LARGE}
+    {}{0mm}{}[]
+  - >
+    \titleformat{\subsection}[hang]{\medskip\large\bfseries}
+    {}{0mm}{}[]
+  - >
+    \titleformat{\subsubsection}[hang]{\medskip\normalsize\bfseries}
+    {}{0mm}{}[]
+  - >
+    \titleformat{\paragraph}[runin]{\medskip\normalsize}
+    {}{0mm}{}[]
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \renewcommand{\headrulewidth}{2pt}
+  - \fancyfoot[C]{\sc{\footnotesize Page \thepage~of \pageref{LastPage}}}
+  #- \setlength{\parskip}{0pt}
+  - >
+    \fancypagestyle{firststyle}{
+      \fancyhead[L]{
+        \hfill\textit{\footnotesize\today}\\
+        \Huge Brittney E. Bailey \\\bigskip
+        \normalsize
+        \href{https://www.amherst.edu/people/facstaff/bebailey}
+          {Assistant Professor of Statistics}\\
+        \href{https://www.amherst.edu/people/facstaff/bebailey}
+          {Amherst College}
+      }
+      \fancyhead[R]{
+        \href{mailto:bebailey@amherst.edu}{bebailey@amherst.edu}\\\medskip
+        AC \#2239, PO Box 5000\\
+        Amherst MA 01002\\
+        (413) 542-2823
+      }
+    }
+  - >
+    \fancyhead[R]{\small Brittney E. Bailey | \href{mailto:bebailey@amherst.edu}{bebailey@amherst.edu}}
+---
+\thispagestyle{firststyle}
+\newgeometry{top = 152pt, 
+        inner = 1in, outer = 1in, 
+        bottom = 1in, 
+        headheight = 78pt}
+<!--\hdashrule{6.5in}{1pt}{2pt}-->
+```{r, setup, include=FALSE}
+# Load necessary packages
+require(mosaic)
+require(kableExtra) 
+
+# Set display options for knitted doc
+knitr::opts_chunk$set(
+  tidy = F,     # display code as typed
+  size = "small",   # slightly smaller font for code
+  comment = "\t",   # indent plain R output
+  fig.align = "center",   # center figures
+  warning = F, message = F)   # suppress warnings, messages 
+theme_set(theme_classic())   # b&w ggplot them
+options(scipen = 1, knitr.kable.NA = '')   # NAs blank, slow to scientific notation
+```
+
+
+\renewcommand\labelitemi{}
+<!------------------------------------------------------------------------------>
+# Education
+
+### PhD in Biostatistics \hfill\normalfont 2018
+[The Ohio State University](https://biostatprograms.osu.edu)
+\newline
+Columbus, OH
+
+<!--
+#### Title: 
+Statistical methods for nested clinical trial designs
+
+#### Advisors: Abigail Shoben and Rebecca Andridge
+
+> Used Monte-Carlo simulation to evaluate logistic regression methods for a clinical trial design with partial nesting, and developed and evaluated modifications to the predictive mean matching multiple imputation procedure for fully nested clinical trial data.
+-->
+
+### MS in Statistics \hfill\normalfont 2012
+[The Ohio State University](https://stat.osu.edu)
+\newline
+Columbus, OH
+
+### BA in Mathematics (Minor in Statistics) \hfill\normalfont 2010
+[Messiah College](https://www.messiah.edu/mathematics-major-pennsylvania)
+\newline
+Grantham, PA
+
+<!------------------------------------------------------------------------------>
+# Research Positions
+
+### Postdoctoral Fellow \hfill\normalfont 2018 -- 2020
+[Amherst College](amherst.edu),
+Department of Mathematics and Statistics
+\newline
+Amherst, MA
+
+<!--
+### Doctoral Candidate \hfill\normalfont 2013 -- 2018
+[The Ohio State University](https://stat.osu.edu)
+
+Columbus, OH
+
+#### Advisors:
+Abigail Shoben and Rebecca Andridge
+
+#### Project: 
+Statistical Methods for Nested Clinical Trial Designs
+
+> Used Monte-Carlo simulation to evaluate logistic regression methods for a clinical trial design with partial nesting, and developed and evaluated modifications to the predictive mean matching multiple imputation procedure for fully nested clinical trial data.
+-->
+
+### Biostatistics Research Associate \hfill\normalfont 2015 -- 2018
+The Ohio State University Wexner Medical Center, [Institute for Behavioral Medicine Research](https://wexnermedical.osu.edu/neurological-institute/departments-and-centers/research-centers/institute-for-behavioral-medicine-research/our-team)
+\newline
+Columbus, OH
+
+#### PI: [Janice Kiecolt-Glaser](https://wexnermedical.osu.edu/neurological-institute/researchers/janice-kiecolt-glaser-phd),
+*Director of the Institute for Behavioral Medicine Research,
+		Distinguished University Professor, 
+		S. Robert Davis Chair of Medicine,
+		Professor of Psychiatry,
+		Professor of Psychology, 
+		Professor of Health Behavior & Health Promotion*
+
+> Data analysis, statistical consulting, and grant writing assistance for ongoing clinical trials and related research in psychoneuroimmunology at the [Stress & Health Lab](stressandhealth.org)
+
+> The lab runs randomized controlled clinical trials and longitudinal studies of 58 to 495 subjects to investigate how stress and depression impact the immune and endocrine systems, metabolism, and overall health. 
+
+<!--
+Jan 2015 - Aug 2018
+**
+	
+#### Mentor:
+[Rebecca Andridge](http//cph.osu.edu/people/randridge), *Associate Professor of Biostatistics*
+
+Collaborate with the Stress & Health Lab to analyze data for ongoing clinical trials and related research, and provide statistical consulting for Clinical Psychology graduate students.
+# Grants
+
+## Completed
+NIH/NCI 3 R01 CA 186720-02S1
+(PI: [Janice Kiecolt-Glaser](https://wexnermedical.osu.edu/neurological-institute/researchers/janice-kiecolt-glaser-phd), 
+Mentor: Rebecca Andridge)
+
+National Institute of Health, National Cancer Institute
+
+Research Supplement to Promote Diversity in Health-Related Research
+
+$61,481
+
+2014-05-19 -- 2019-04-30
+
+[Breast Cancer Survivors Cardiovascular Risks Treatment and Behavioral Influences](http://grantome.com/grant/NIH/R01-CA186720-02S1)
+
+Biostatistics Research Associate
+-->
+
+\clearpage
+\restoregeometry
+### Biostatistics Summer Research Assistant \hfill\normalfont 2014
+[The Ohio State University](https://stat.osu.edu), College of Public Health
+\newline
+Columbus, OH
+
+#### PI: Randi Foraker, *Assistant Professor of Epidemiology*
+
+> Implemented a Monte-Carlo simulation study to investigate discrepancies in the direction and significance of estimated coefficients from logistic regression and Cox proportional hazards regression models when studying the influence of socioeconomic status on hospital readmission rates among heart failure patients. 
+
+<!--
+#### Funding
+[The Ohio State University Institute for Population Research Seed Grant](https//ipr.osu.edu/seedgrants} funded by the Eunice Kennedy Shriver National Institute for Child Health and
+Human Development
+
+#### Project
+[Neighborhood socioeconomic status and 30-day readmission among heart failure patients](https//ipr.osu.edu/neighborhood-socioeconomic-status-and-30-day-readmission-among-heart-failure-patients}
+
+#### PI:
+[Randi Foraker](https//cph.osu.edu/people/rforaker}
+
+#### Mentor: 
+Abigail Shoben
+
+#### Grant \#: 
+NIH/NICHD P2CHD058484
+
+Implemented a Monte-Carlo simulation study to investigate discrepancies in the direction and significance of estimated coefficients from logistic regression and Cox proportional hazards regression models when studying the influence of socioeconomic status on hospital readmission rates among heart failure patients. 
+
+Motivating data were from the [Atherosclerosis Risk in Communities (ARIC) study](https://www.nhlbi.nih.gov/research/resources/obesity/population/aric.htm)} 
+-->
+
+### Computational Biology and Biostatistics Summer Intern \hfill\normalfont 2009
+University of Wisconsin [Integrated Biological Sciences Summer Research Program](https//www.biostat.wisc.edu/content/computational-biology-and-biostatistics-summer-research-program-cbb)
+\newline
+Madison, WI
+
+#### Advisor: [Paul Hutson](https//apps.pharmacy.wisc.edu/sopdir/paul_hutson/), *Professor of Pharmacy, UW Hospital Oncology and Palliative Care Group Pharmacist*
+
+#### Project: Morphine Titration and Conversions in Palliative Care
+
+> Modeled plasma-morphine concentration curves using the pharmacokinetics of morphine under different dosing regimens (i.e., oral, subcutaneous, injection) to identify dosing regimens that would maintain pain relief for palliative care patients without approaching toxic levels of morphine in the blood.
+
+<!--
+May -- August 2009
+-->
+
+### Mathematics Intern \hfill\normalfont 2009
+Department of Defense High Performance Computing Modernization Program, Army Research Laboratory, [Joint Educational Opportunities for Minorities (JEOM) Internship](http//www.hpcmo.hpc.mil/community/JEOM/index.php)
+\newline
+Aberdeen, MD
+
+<!-- May -- August 2009-->
+
+#### Advisor: James Ianni, *Senior Software Engineer*
+
+> Implemented bootstrapping procedure for estimating standard errors  to improve precision of forecasted utilization rates of allocated computing resources for research groups in the Major Shared Resource Center.
+
+<!--
+Bootstrapped standard errors of forecasted rates of computing resource utilization for research groups in the Major Shared Resource Center to optimize notification of under- or overutilization.  %of computing resources.
+
+Implemented bootstrapping method using Fortran and a Korn shell script to improve estimated standard errors for forecasted rates of utliized allocated computing resources for research groups in the Major Shared Resource Center. Groups could then be appropriately notified of under- or overutilization of resources and plan accordingly for the remainder of the year. Underutilization could indicate that a group is having trouble with its project or will have a significant amount of allocation units remaining at the end of the fiscal year. Overutilization indicates that a group may not have enough allocation units remaining to complete or continue its project. Groups are notified in each case so they can plan accordingly for the remainder of the year.
+-->
+
+
+
+# Publications
+
+
+<!--
+Full citations must be made for all scholarly and creative work that the candidate wishes to be considered. 
+
+References to published work must include page numbers. For forthcoming work, please include a word count. 
+
+The following information is also requested and may be included in the CV or as an addendum: 
+- notations about whether work was peer-reviewed or invited should be indicated, as should your contributions to, and role in, collaborative work
+
+- you should explain the status of unpublished work that is included on the CV (e.g., forthcoming, in revision prior to resubmission, or published online and scheduled for print publication, etc.).
+-->
+
+<!--## Peer-reviewed-->
+
+<!-- 2020 -->
+1. Wilson SJ, Padin AC, **Bailey BE**, Laskowski B, Andridge R, Malarkey WB, & Kiecolt-Glaser JK 
+(2020). 
+Spousal bereavement after dementia caregiving: A turning point for immune health
+*Psychoneuroendocrinology*, In Press.
+[doi:10.1016/j.psyneuen.2020.104717](https://doi.org/10.1016/j.psyneuen.2020.104717)
+
+1. **Bailey BE**, Andridge R, Shoben, AB
+(2020).
+Multiple imputation by predictive mean matching in cluster-randomized trials.
+*BMC Medical Research Methodology*, 20(1), 1-16.
+[doi:10.1186/s12874-020-00948-6](https://doi.org/10.1186/s12874-020-00948-6)
+
+1. Madison A, Woody W, **Bailey BE**, Lustberg M, Ramaswamy B, Wesolowsky R, Williams N, Reinbolt R, VanDesuen J, Sardesai S, Malarkey W, & Kiecolt-Glaser JK
+(2020).
+Cognitive problems of breast cancer survivors on proton pump inhibitors.
+*Journal of Cancer Survivorship*, 1-9.
+[doi:10.1007/s11764-019-00815-4](https://doi.org/10.1007/s11764-019-00815-4)
+<!-- 2019 -->
+
+1. Wilson SJ, **Bailey BE**, Malarkey WB, & Kiecolt-Glaser JK 
+(2019). 
+Linking marital support to aging-related biomarkers: Both age and marital quality matter.
+*Journals of Gerontology, Series B: Psychological Sciences and Social Sciences*, gbz106.	
+[doi:10.1093/geronb/gbz106](https://doi.org/10.1093/geronb/gbz106)
+
+1. Padin AC, Wilson SJ, **Bailey B**, Lustberg, MB,  Farrar WB, Povoski SP, Agnese DM, Reinbolt RE, Wesolowski R, Williams N, Sardesai S, Ramaswamy B, Noonan AM, Vandeusen JF, Haas GJ, & Kiecolt-Glaser JK 
+(2019).
+Physical activity after breast cancer surgery: Does depression make exercise feel more effortful than it actually is?
+*International Journal of Behavioral Medicine*, 26(3), 237-246.
+[doi:10.1007/s12529-019-09778-3](https://doi.org/10.1007/s12529-019-09778-3)
+<!-- 2018 -->		
+
+1. Wilson SJ, **Bailey BE**, Jaremka LM, Fagundes C, Andridge R, & Malarkey, WB 
+(2018). 
+When couples' hearts beat together: Synchrony in heart rate variability during conflict predicts heightened inflammation throughout the day. 
+*Psychoneuroendocrinology*, 93, 107-116.
+[doi:10.1016/j.psyneuen.2018.04.017](https://doi.org/10.1016/j.psyneuen.2018.04.017)
+<!-- 2017 -->	
+
+1. Wilson SJ, Andridge RR, Peng J, **Bailey BE**, Malarkey WB, & Kiecolt-Glaser JK 
+(2017).
+Thoughts after marital conflict and punch biopsy wounds: Age-graded pathways to healing.
+*Psychoneuroendocrinology*, 85, 6-13.
+[doi:10.1016/j.psyneuen.2017.07.489](https://doi.org/10.1016/j.psyneuen.2017.07.489)
+<!-- 2016 -->
+
+1. Belury MA, Cole RM, **Bailey BE**, Ke JY, Andridge R, & Kiecolt-Glaser JK 
+(2016). 
+Erythrocyte linoleic acid, but not oleic acid, is associated with improvements in body composition in men and women. 
+*Molecular nutrition & food research*, 60(5), 1206-1212.
+[doi:10.1002/mnfr.201500744](https://doi.org/10.1002/mnfr.201500744) 
+		
+<!--
+## Under review
+
+Burd C,  **Bailey BE**, Laskowski B, Andridge R, Fadda P, Zhang S, Yu L, Hollyfield J, Sucheston-Campbell L, Kiecolt-Glaser JK 
+(*Under review*).
+Comparative analysis of aging biomarkers (*p16*$^\textit{INK4a}$, epigenetic clock, serum IL-6) in a healthy human cohort.
+Submitted to *Journals of Gerontology, Series A*.
+-->
+
+<!--
+# Other writing
+
+1. Heggeseth B, Myint L, **Bailey BE**. Let's Join the Conversation. *American Statistical Association Section on Statistics Education Blog*, March 31, 2018. 
+Retrieved from [https://statisticseducatio.wixsite.com/mysite/post/2018/03/11/lets-join-the-conversation](https://statisticseducatio.wixsite.com/mysite/post/2018/03/11/lets-join-the-conversation)
+
+1. **Bailey BE**. Classroom to Collaboration: Tips for a Successful Transition. *Amstat News, STATtr@k Column*, July 1, 2016. 
+Retrieved from [https://stattrak.amstat.org/2016/07/01/classtocollab16/](https://stattrak.amstat.org/2016/07/01/classtocollab16/)
+-->
+
+# Talks
+
+<!-- invited colloquia, invited seminars, invited conference talks, contributed talks. -->
+
+## Invited Conference Talks
+
+1. **Bailey BE**, Andridge RR, Shoben AB. 
+*New predictive mean matching imputation methods for cluster randomized trials.* 
+Invited Panel with [James Carpenter](https://www.lshtm.ac.uk/aboutus/people/carpenter.james), [Tom Louis](https://www.jhsph.edu/faculty/directory/profile/900/thomas-a-louis), and [Yaoyuan Vincent Tan](https://www.researchgate.net/scientific-contributions/2115807824-Yaoyuan-Vincent-Tan).
+JSM. Denver, CO. August 2019. 
+	
+## Invited Colloquia
+
+1. **Bailey BE**. 
+*Organizing for Productivity.*
+StatFest. Virtual roundtable September 2020.
+
+1. **Bailey BE**, 
+*Multiple imputation by predictive mean matching in cluster-randomized trials.*
+University of Massachusetts, Amherst Statistics Department.
+Amherst, MA.
+April 2020. Cancelled due to COVID-19 pandemic.
+
+1. **Bailey BE**.
+*A Noncomprehensive Guide to Statistical Ethics in Practice*.
+Williams College Data Science Bootcamp. 
+Virtual talk. 
+January 2020. 
+
+1. **Bailey BE**, 
+*Missing Data 101.*
+Research Bytes @ MassMutual.
+Amherst, MA.
+April 2019.
+
+1. **Bailey BE**, 
+*Multiple imputation in cluster-randomized trials*
+Smith College SDS Program.
+Northampton, MA.
+February 2019.
+
+1. **Bailey BE**, 
+*Multiple imputation in cluster-randomized trials*
+Smith College Center for Women in Mathematics.
+Northampton, MA.
+November 2018.
+
+
+## Contributed Talks
+
+1. **Bailey BE**, Andridge RR, Shoben AB.
+*A new predictive mean matching approach to multiple imputation in cluster-randomized trials.*
+Annual Meeting of the Society for Clinical Trials (SCT). 
+New Orleans, LA. 
+May 2019. 
+
+1. **Bailey BE**, Andridge RR, Shoben AB.
+*Investigating multiple imputation in cluster-randomized trials.*
+JSM. 
+Baltimore, MD. 
+July 2017. 
+		
+1. **Bailey BE**, Shoben AB.
+*Analyzing binary outcome data from a partially clustered design.*
+JSM. 
+Chicago, IL. 
+August 2016. 
+		
+1. **Bailey BE**, Shoben AB.
+*Analyzing binary outcome data from individually-randomized group treatment trials.*
+SCT. 
+Montreal, Quebec. 
+May 2016. 
+			
+1. **Bailey BE**, Shoben AB, and Foraker RE.
+*Quality measures? The impact of modeling strategy and informative censoring on estimated readmission risk.* 
+JSM. 
+Seattle, WA. 
+August 2015.
+
+# Posters 
+
+## Invited Posters
+
+1. **Bailey BE**. 
+*How do we count what wasn't measured? Dealing with missing data in stepped wedge designs.*
+Invited Poster Session. 
+Joint Statistical Meetings (JSM). 
+Philadelphia, PA. 
+August 2020. Withdrawn due to COVID-19 pandemic.
+
+## Contributed Posters
+
+1. **Bailey BE**.
+*Missing Data Methods for Cluster Randomized Trials*. 
+International Conference on Health Policy Statistics (ICHPS). 
+San Diego, CA. 
+January 2020.
+		
+1. **Bailey BE**.
+*Missing data in cluster randomized trials: Options for analysis in R.* IMS 21st Meeting of New Researchers in Statistics and Probability. 
+Fort Collins, CO. 
+July 2019.
+
+1. **Bailey BE**, Andridge RR, Shoben AB.
+*Investigating multiple imputation in cluster-randomized trials.* 
+International Clinical Trials Methodology Conference (ICTMC) 
+and Annual Meeting of the Society for Clinical Trials (SCT). 
+Liverpool, UK. 
+May 2016.
+
+1. **Bailey BE**, Shoben AB.
+*Individually randomized group treatment trials with binary outcomes.* 
+The Ohio State University, Cleveland Clinic Foundation, and Case Western Reserve University (OSU/CCF/CWRU) Joint Biostatistics Symposium. 
+Columbus, OH. 
+April 2016.
+		
+1. **Bailey BE**.
+*Classroom to collaboration: A grad student's guide.*
+Conference on Statistical Practice (CSP). 
+San Diego, CA. 
+February 2016.
+			
+1. **Bailey BE**, Shoben AB.
+*Individually randomized group treatment trials with binary outcomes.* 
+OSU Statistics and Biostatistics Graduate Student Poster Session. 
+Columbus, OH. 
+September 2015.
+				
+1. **Bailey BE**, Shoben AB, and Foraker RE.
+*Quality measures? The impact of modeling strategy and informative censoring on estimated readmission risk.*
+JSM. 
+Seattle, WA. 
+August 2015.
+		
+1. **Bailey BE**, Shoben AB, and Foraker RE.
+*Quality measures? The impact of modeling strategy and informative censoring on estimated readmission risk.*
+OSU/CCF/CWRU Joint Biostatistics Symposium. 
+Cleveland, OH. 
+April 2015.
+		
+# Teaching Experience
+
+### Assistant Professor of Statistics \hfill\normalfont 2018 -- 2020
+Amherst College, Department of Mathematics and Statistics
+\newline
+Amherst, MA
+
+* STAT 135: Introduction to Statistics via Modeling, *Fall 2020*
+
+### Visiting Assistant Professor of Statistics \hfill\normalfont 2018 -- 2020
+Amherst College, Department of Mathematics and Statistics
+\newline
+Amherst, MA
+
+* STAT 230: Intermediate Statistics, *Fall 2019*
+
+* STAT 135: Introduction to Statistics via Modeling, *Fall 2018, Spring 2019*
+
+
+
+### Teaching Assistant \hfill\normalfont 2014 -- 2015 
+<!--August 2014 -- May 2015-->
+The Ohio State University College of Public Health, Division of Biostatistics
+\newline
+Columbus, OH
+
+* PUBHBIO 2210H: Honors Biostatistics for Public Health Research, *Spring 2015*
+* PUBHBIO 2210: Biostatistics for Public Health Research, *Autumn 2014, Spring 2015*
+
+
+### Online Course Design Assistant \hfill\normalfont 2014
+<!--May -- August 2014-->
+The Ohio State University College of Public Health, Division of Biostatistics\newline
+Columbus, OH
+
+* PUBHBIO 6210: Design and Analysis of Studies in the Health Sciences I
+
+> Recorded instructional examples for the online version of PUBHBIO 6210.
+
+
+### Grader \hfill\normalfont 2013 -- 2014
+<!-- August 2013 -- May 2014 -->
+The Ohio State University College of Public Health, Division of Biostatistics
+\newline
+Columbus, OH
+
+* PUBHBIO 6211: Design and Analysis of Studies in the Health Sciences II, *Spring 2014*
+* PUBHBIO 6210: Design and Analysis of Studies in the Health Sciences I, *Autumn 2013* 
+
+
+### Adjunct Instructor of Statistics \hfill\normalfont 2013 - 2014
+<!-- May 2013 -- December 2014 -->
+Columbus State Community College, Mathematics Department
+\newline
+Columbus, OH
+
+* STAT 1350: Elementary Statistics, *Summer 2013, Autumn 2013, Spring 2014, Autumn 2014*
+* STAT 2450: Introduction to Statistical Analysis, *Summer 2013*
+
+### Teaching Assistant \hfill\normalfont 2012 -- 2013
+<!-- September 2011 - May 2013 -->
+The Ohio State University, Department of Statistics
+\newline
+Columbus, OH
+
+* STAT1450: Introduction to the Practice of Statistics, *Spring 2012, Autumn 2012, Spring 2013*
+* STAT135: Elementary Statistics, *Winter 2012*
+
+### Grader \hfill\normalfont 2012
+<!-- March -- June 2012 -->
+The Ohio State University, Department of Statistics
+\newline
+Columbus, OH
+
+* STAT 427: Introduction to Probability and Statistics, *Spring 2012* 
+
+### Lecturer \hfill\normalfont 2011
+<!-- September 2011 - December 2011 -->
+The Ohio State University, Department of Statistics
+\newline
+Columbus, OH
+
+* STAT1450: Introduction to the Practice of Statistics, *Autumn 2011*
+
+### Grader \hfill\normalfont 2008 -- 2010
+<!-- August 2008 -- May 2010 -->
+Messiah College, Department of Information and Mathematical Sciences
+\newline
+Grantham, PA
+
+* STAT 292: Statistics for the Mathematical Sciences II, *Spring 2010*
+* MATH 107: Applied Mathematics for Management, *Fall 2009, Spring 2010*
+* STAT 291: Statistics for the Mathematical Sciences I, *Fall 2009*
+* MATH 112: Calculus II, *Spring 2009*
+* STAT 269: Introductory Statistics, *Fall 2008, Spring 2009*
+* MATH 111: Calculus I, *Fall 2008*
+
+
+# Professional Development Opportunities
+
+## Workshops and Short Courses
+
+1. *National Institute of Statistical Sciences (NISS) Writing Workshop*
+August 2020.
+
+1. *Methods for Causal Inference from Randomized Trials with Loss to Follow-up or Non-Adherence.*
+SCT workshop lead by [Ellie Murray](https://www.bu.edu/sph/profile/eleanor-murray/)  [Ellie Caniglia](https://med.nyu.edu/faculty/ellen-c-caniglia)
+New Orleans, LA. 
+May 2019.
+
+1. *Build $\rightarrow$ Improve $\rightarrow$ Share: Apps and Dashboards with Shiny.*
+Women in Statistics and Data Science short course by Mine Çetinkaya-Rundel. 
+Cincinnati, OH. 
+October, 2018.
+
+1. *Fostering Diversity in Biostatistics.*
+ENAR workshop.
+Washington, DC. 
+March 2017.
+
+1. *Fostering Diversity in Biostatistics.*
+ENAR workshop.
+Austin, TX. 
+March 2016.
+		
+1. *Propensity Score Methods: Practical Aspects and Software Implementation.*
+CSP workshop by Adin-Cristian Andrei. <!--Feinberg School of Medicine--> 
+San Diego, CA. 
+February 2016.
+
+1. *Adaptive Designs: Overview, Hurdles, Examples, and Software.*
+SCT workshop by Christopher S. Coffey.
+Arlington, VA. 
+May 2015.
+
+
+## Other Meeting Attendance
+
+1. *Engaging Everyone.*
+Electronic Conference on Teaching Statistics.
+June 2020.
+
+1. *Cluster Randomized Clinical Trials: Challenges and Opportunities.*
+13th Annual Conference on Statistical Issues in Clinical Trials. 
+Philadelphia, PA. 
+April 2020.
+Cancelled due to COVID-19 pandemic.
+
+1. *Electronic Health Records (EHR) in Randomized Clinical Trials: Challenges and Opportunities.*
+12th Annual Conference on Statistical Issues in Clinical Trials. 
+Philadelphia, PA. April 2019.
+
+1. *Addressing Cancer Health Disparities in Appalachia*.
+[Annual Ohio ACCN Research Seminar](http//fcs.osu.edu/2015-annual-ohio-accn-research-seminar)
+Columbus, OH. May 2015.
+	
+1. *Advances in Clinical Trial Statistics: Multiplicity Adjustment and Sequential, Multiple Assignment, Randomized Trials.*
+Innovative Methods Program for Advancing Clinical Trials (IMPACT) Symposium.
+Cary, NC. 
+November 2014. 
+
+<!--
+%	OSU/CCF/CWRU Joint Biostatistics Symposium, Apr 20, 2015
+	ENAR. Miami, FL. March 2015. 
+	Innovative Methods Program for Advancing Clinical Trials (IMPACT) Symposium. Cary, NC. 
+		November 2014. 
+	OSU/CCF/CWRU Joint Biostatistics Symposium. Columbus, OH. April 2014.
+	OSU/CCF/CWRU Joint Biostatistics Symposium. Columbus, OH. May 2012.
+	SSES Conference on Spatial and Environmental Statistics. Columbus, OH. April 2012. 
+	Department of Defense High Performance Computing Modernization Program Users Group 
+		Conference. Seattle, WA. July 2008. 
+	JEOM Summer Colloquium. Seattle, WA. July 2008. 
+-->
+
+# Honors 
+
+#### Participant, IMS 21st Meeting of New Researchers in Statistics and Probability \hfill 2019
+
+> One of 60 early-career statisticians selected to participate.
+
+#### Biostatistics Fellow, NIMH Advanced Research Institute Spring Retreat \hfill 2018
+
+> One of 2 early-career biostatisticians selected to participate.
+		
+#### Statistics Mentee, JSM Diversity Mentoring Program \hfill 2017
+
+> One of 20 students selected to participate.
+		
+
+# Awards
+
+Research Supplement to Promote Diversity in Health-Related Research, National Institute of Health, National Cancer Institute \hfill 2015 -- 2018
+
+Lester R. Curtin Award, American Statistical Association \hfill 2016
+	<!-- Awarded to promising, early-career health statisticians.}%established in recognition of Randy Curtin?s excellence both as a statistician and a mentor, at the Centers for Disease Control and Prevention?s National Center for Health Statistics.-->
+
+University Fellow, The Ohio State University \hfill 2010 -- 2011
+<!--Nominated by Statistics Department to receive support for first year of graduate school.-->
+	
+Lubrizol Early Acceptance Award, The Ohio State University \hfill 2010
+
+Ernest L. Boyer Scholar, Messiah College \hfill 2010
+<!--	Awarded to 3rd-year students who demonstrate a commitment to education, 
+	community engagement, and service.-->
+
+Academic Dean's List, Messiah College \hfill 2006 -- 2010
+
+Provost's Scholarship, Messiah College \hfill 2006 -- 2010
+<!--Merit-based scholarship for excellent high school GPA, class rank, and ACT score.-->
+	
+Lloyd and Lois Martin Multicultural Scholarship, Messiah College \hfill 2006 -- 2010
+<!--Awarded to students who demonstrate strong scholarship and service, ministry, or leadership in their school, church, or community and are committed to promoting racial and ethnic diversity and reconciliation.-->
+
+Sigma Zeta National Science and Mathematics Honor Society \hfill 2008 -- 2010.
+
+National Achievement Scholarship \hfill 2006 -- 2007.
+
+# National Service
+
+
+### Member, StatFest National Organizing Committee \hfill\normalfont 2018 -- Present
+<!--
+* Managed registration
+* Assisted in planning
+* Ensured conference ran smoothly on day of event
+-->
+<!--* Moderated virtual conference in 2020-->
+
+### Co-Chair, StatFest Local Organizing Committee \hfill\normalfont 2018
+
+### Referree \hfill\normalfont 2017 -- Present
+
+* Journals in alphabetical order include *BMC Public Health*, <!--November 2019-->
+*Clinical Trials*, <!--December 2019, May 2020-->
+*Epidemiology*, <!--August 2020-->
+*Harvard Data Science Review*, <!--July 2020-->
+*International Journal of Data Science and Analytics*, <!--April 2018-->
+*Journal of Statistics Education*, <!--December 2018, February 2019-->
+*Statistics in Medicine*, <!--August 2017-->
+
+### Panelist, StatFest Graduate Student Experience Panel.
+<!--Invited Panel with Jemar Bather, Dominique McDaniel, and Brittany Green. -->
+StatFest. Atlanta, GA. September 2017.
+
+### JSM Topic-Contributed Session Chair \hfill\normalfont 2016
+*Time-to-Event Models for Studies with Informative Censoring, Truncation, or Drop-Out.* 
+<!--(Topic Contributed Papers, Biometrics Section)-->
+JSM. Chicago, IL, August 2016
+
+### SCT Topic-Contributed Session Chair \hfill\normalfont 2016
+*Cluster Randomized Trials/Cross-Protocol Analyses.* 
+SCT. Montreal, Quebec, May 2016	
+
+
+# Institutional Service
+
+### Intensive Advising \hfill 2020 -- Present
+
+* AY 2020-2021: 3 Students
+<!-- $1500 -->
+
+### Summer Bridge Faculty, Quantitative and Social Sciences Track \hfill\normalfont July -- August 2020
+* Co-taught Statistics class with Kevin Donges.
+<!-- $7500 -->
+
+### STEM Incubator Lead \hfill\normalfont June -- July 2020
+<!-- $4000 -->
+
+### Thesis Consultations
+
+* Heather Scott '21 (Carrie Palmquist), Psychology, *4hrs* \hfill Summer 2020 
+* Tyler Marovitz '20, Political Science, *1.5hrs* \hfill Spring 2020 
+* Bree Barnes '20, Environmental Studies, *1.5hrs* \hfill Fall 2019 
+* Erik Zhang '19 (Marc Edwards), Biology, *19hrs* \hfill Spring 2019 
+* Drop-in student '19, Psychology, *1hr* \hfill Spring 2019 
+
+### Graduate School Experience Panel, Meiklejohn Fellowship Program \hfill\normalfont February 2020
+
+### Faculty Panel, Diversity Open House \hfill\normalfont October 2019
+
+###	Quantitative Module Development (Amy Coddington) \hfill\normalfont Fall 2019
+
+* Developed a quantitative module for graph design and analysis in First Year Seminar, *What is Mainstream Music?*. 
+<!-- $2500 -->
+
+### Mead Art Museum Consultation (Emily Potter-Ndiaye)
+* Evaluated attendance records with Juhwan Jeong '20, *4hrs* \hfill Spring 2019
+
+# Departmental Service
+
+## Thesis Advising
+* Tony Ni '21, *TBD*
+
+## Thesis Reading
+* Dahyun Jessica Jeong '20, *Scaling statistical modeling and analysis for larger datasets using Sparklyr*
+* Margaret Chien '20, *Modeling fatalities in armed conflict with mixed effects models*
+* Zach Brown '19, *Using EM methods to handle data below the lower limit of detection*
+
+<!-- ## Major Advisees to Date: 7 -->
+
+## Additional service by academic year
+
+### 2020 - 2021
+* Advised 7 Statistics majors
+<!--
+* Coordinated nomination of students to Mu Sigma Rho Statistics Honor Society 
+* Took notes for Statistics subgroup meetings and Mellon meetings 
+*	Maintained Statistics Thesis template 
+-->
+
+### 2019 - 2020
+*	Evaluated Statistics Comprehensive Evaluation reports
+* Mentored student through second attempt of Statistics Comprehensive Evaluation
+*	Organized Statistics Colloquium Series 
+* Served as liaison for SDS Fellows' workshop coordination and thesis consulting
+* Coordinated Amherst College's promotion of and registration for Five College Data Fest
+* Coordinated nomination of students to Mu Sigma Rho Statistics Honor Society 
+* Took notes for Statistics subgroup meetings and Mellon meetings 
+*	Maintained Statistics Thesis template 
+*	Co-organized *Summer Opportunities in Statistics Info Session* 
+* Co-organized *Statistics Major Info Session*
+* Advised 1 Statistics major
+
+### 2018 - 2019
+* Served on Search Committee for Visiting Assistant Professor
+* Evaluated Statistics Comprehensive Evaluation reports
+* Mentored student through first attempt of Statistics Comprehensive Evaluation
+* Took notes for Statistics subgroup meetings and Mellon meetings
+* Co-organized nomination of students to Mu Sigma Rho Statistics Honor Society
+
+
+# Professional Memberships
+
+American Statistical Association \hfill 2007 -- Present
+<!--
+%		\begin{tightemize}
+%		Section on Bayesian Statistical Science
+%		Section on Statistics in Epidemiology
+%		Mental Health Statistics Section
+%		Social Statistics Section
+%	\end{tightemize}
+-->
+
+International Biometrics Society, Eastern North American Region (ENAR) \hfill 2016 -- Present
+
+Society for Clinical Trials \hfill 2016 -- Present
+
+Society for Epidemiological Research \hfill 2019 -- Present
+
+American Public Health Association \hfill 2019 -- Present
+
+Society for Prevention Research \hfill 2020 -- Present
+
+
+<!--
+\begin{itemize}
+%	Intensive Advisor
+%		\begin{itemize}
+%			3 students (19-20)
+%		\end{itemize}
+
+Summer Bridge: Quantitative and Social Sciences Track (Statistics Course Co-Teacher), July - August 2020
+	STEM Incubator Lead, June-July 2020
+	Meiklejohn Fellowship Program: Grad School Panel, February 2020
+	Diversity Open House: Faculty Panelist, October 20, 2019
+	Quantitative Module for FYS in Music: (mailto:acoddington@amherst.edu}{Amy Coddington},  Fall 2019
+	%\$2500 award). 
+	Statistical consultation
+		\begin{tightemize}
+		Psychology research: (mailto:cpalmquist@amherst.edu}{Carrie Palmquist}, Summer 2020 (1 hour)
+		Political Science thesis: (mailto:tmarovitz20@amherst.edu}{Tyler Marovitz '20}, Spring 2020 (1.5 hrs)
+		Environmental Studies thesis: (mailto:bbarnes20@amherst.edu}{Bree Barnes '20}, Fall 2019 (1.5 hrs)
+		Biology thesis: (mailto:ezhang19@amherst.edu}{Erik Zhang '19},  Spring 2019 (19 hours)
+		Psychology thesis: drop-in student, Spring 2019 (1 hour)
+		Mead Art Museum: (mailto:epotterndiaye}{Emily Potter-Ndiaye},  Spring 2019 (4 hours)
+		\end{tightemize}
+\end{itemize}
+\listsep
+
+\subsubsection*{Departmental}
+\begin{itemize}
+	Co-organized Summer Opportunities in Statistics Info Session (19-20)
+	Co-organized Statistics Major Info Session (19-20)
+	Took notes for Statistics subgroup meetings and Mellon meetings (19-20)
+	Coordinated SDS Fellows' workshop efforts and statistical consulting (19-20)
+	Coordinated Amherst College promotion of and registration for Five College Data Fest (19-20)	
+	Maintained Statistics Thesis template (19-20)
+	Organized Statistics colloquia (18-19, 19-20)
+	Evaluated Statistics Comprehensive Evaluation reports (18-19, 19-20)
+	Coordinated nomination of students to Mu Sigma Rho Statistics Honor Society (19-20)
+	Co-coordinated nomination of students to Mu Sigma Rho Statistics Honor Society (18-19)
+\end{itemize}
+
+
+\subsection{The Ohio State University}
+\begin{itemize}
+	Teaching and Learning Institute Advisory Council, Student Feedback Session. January 2016
+	College of Public Health Excellence in Teaching Award Committee. March 2015
+	Department of Statistics Graduate Recruitment Committee. June 2010 -- Present
+	%\item Treasurer, Statistics in the Community (STATCOM),  Fall 2011 ? Spring 2012
+	%Department of Statistics, The Ohio State University 
+\end{itemize}
+
+\begin{comment}
+\listsep
+\subsection{Messiah College}
+\begin{itemize}
+	Tutor, Allison Hill Community Ministries. Harrisburg, PA. September 2007 -- May 2010
+%	\begin{tightemize}
+%		\item[--] \myit{Tutor} Engaged with students in grades 1-12 to assist with homework, promote a 	
+%				healthy lifestyle, and encourage success
+%		\item[--] \myit{Team leader} Led a team of 3-5 college students on weekly trips to the center
+%	\end{tightemize}	
+	Tutor, Center for Champions. Harrisburg, PA. February 2008 -- May 2010
+%	\begin{tightemize}
+%		\item[--] \myit{Tutor} Engaged with students in grades 1-12 to assist with homework, promote a 
+%				healthy lifestyle, and encourage success
+%		\item[--] \myit{Team leader} Led a team of 3-5 college students on weekly trips to the center
+%	\end{tightemize}
+	Host Program, Messiah College. September 2007 -- May 2010
+%	\begin{tightemize}
+%		\item[--] Overnight host for prospective students
+%		\item[--] Represented the college during prospective student events
+%		\item[--] Maintained contact with prospective students throughout the decision process
+%	\end{tightemize}
+	Peer Group Leader, Messiah College. August -- October 2008
+%	\begin{tightemize}
+%		\item[--] Facilitated weekly activities for 15 first-year students to ease the transition to college life
+%	\end{tightemize}
+\end{itemize}
+\end{comment}
+\listsep
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MENTORING AND ADVISING
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Mentoring and advising}
+
+
+%\myposition{Thesis Advisor}
+%\Institution{U \bvert Department of Information \& Mathematical Sciences}
+%August 2008 -- May 2010 \bvert Grantham, PA}
+%	\begin{tightemize}
+%	Zachary Brown '19: \myit{Using EM Methods to Handle Data Below the Lower Limit of Detection}
+%	\end{tightemize}	
+%\listsep
+%\subsection{Amherst College}
+
+{\myposition{Thesis Advisor}}
+	\begin{tightemize}
+		(mailto:tni20@amherst.edu}{Tony Ni '21}: 
+		\myit{In progress...}
+	\end{tightemize}	
+\listsep
+
+{\myposition{Thesis Reader}}
+	\begin{tightemize}
+		(mailto:mchien20@amherst.edu}{Margaret Chien '20}: 
+		\myit{Modeling Fatalities in Armed Conﬂict with Mixed Eﬀects Models}
+		(mailto:djeong20@amherst.edu}{Dahyun Jessica Jeong '20}: 
+		\myit{Scaling Statistical Modeling and Analysis for Larger Datasets Using Sparklyr}
+	(mailto:zbrown18@amherst.edu}{Zachary Brown '19}: 
+		\myit{Using EM Methods to Handle Data Below the Lower Limit of Detection}
+	\end{tightemize}	
+\listsep
+
+{\myposition{Academic Intern Supervisor}}
+	\begin{itemize}
+	(mailto:tni21@amherst.edu}{Tony Ni '21}
+		\begin{tightemize}
+			\item[] AY 2019-2020: Correlation analysis, text analysis, and psychological coding for corpus of victim impact statements from trial of Larry Nassar. 
+			%Assisted with preparation of STAT 230
+		\end{tightemize}
+		
+	(mailto:brichards21@amherst.edu}{Breanna Richards '21}
+		\begin{tightemize}
+			\item[] AY 2018-2019: Conducted literature search for prevalence of partially nested designs in public health clinical trials.
+			\item[] AY 2019-2020: Conducted correlation analysis, text analysis, and psychological coding for corpus of victim impact statements from trial of Larry Nassar. 
+			%Assisted with preparation of STAT 230
+		\end{tightemize}
+	(mailto:ppalmer21@amherst.edu}{Phebe Palmer '21}
+		\begin{tightemize}
+		\item[] Fall 2019: Consolidated R package documentation as part of a literature review and assisted with creation of course material for STAT 230
+		\end{tightemize} 
+	(mailto:nsolomon22@amherst.edu}{Noah Solomon '22}
+		\begin{tightemize}
+		\item[] Summer 2019: Used Python to scrape and automate cleaning of Larry Nassar victim 
+			impact statements from (inourownwords.us}{inourownwords.us} and assisted with creation of course material for STAT 230
+		\end{tightemize} 
+	(mailto:jjeong20@amherst.edu}{Juhwan Jeong '20}
+			\begin{tightemize}
+			\item[] Spring 2019: Consulted with Emily Potter-Ndiaye to improve data collection and summaries of visitors to the Mead.
+			\end{tightemize}
+	\end{itemize}
+\listsep
+%\subsection{External}		
+\sectionsep
+
+
+
+<!--
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     OTHER ACTIVITIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Other Activities}
+%
+%\begin{itemize}
+%	Co-Ed Intramural Basketball League, The Ohio State University, 2010--2012
+%		\begin{tightemize}
+%			2012 Co-Rec A League Intramural Champions
+%		\end{tightemize}
+%	Women's 5v5 Recreational Basketball League, Messiah College, 2007--2010
+%	Women's 3v3 Recreational Basketball League, Messiah College, 2006--2009
+%\end{itemize}
+%	
+
+\begin{comment}
+\section{Languages}
+\begin{minipage}[t]{.6\textwidth}
+\subsection{Programming}
+Over 5000 lines}
+Java \textbullet{}   Shell \textbullet{} JavaScript \textbullet{} Matlab \textbullet{}
+OCaml \textbullet{} Python \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
+Over 1000 lines}
+C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
+Familiar}
+AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
+\listsep
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.35\textwidth}
+\subsection{Spoken \& Written}
+Native fluency} English, Spanish\\
+Reading fluency} Chinese, Japanese\\
+\end{minipage}
+\end{comment}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     REFERENCES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{comment}
+\section{References}
+\begin{minipage}[t]{3in} 
+\begin{itemize}
+	\mybf{Rebecca Andridge}\\\myit{Associate Professor, Biostatistics}
+		\begin{tightemize}
+		\item[] 1841 Neil Ave\\242 Cunz Hall\\Columbus, OH 43210
+		\item[] (614) 247-7912
+		\item[] andridge.1@osu.edu
+		\end{tightemize}
+		\listsep
+	\mybf{Janice Kiecolt-Glaser}\\\myit{Director, Institute for Behavioral Medicine Research\\ 
+				Distinguished University Professor\\
+				S. Robert Davis Endowed Chair in Medicine\\
+				Professor of Psychiatry and Behavioral Health}
+		\begin{tightemize}
+		\item[] 460 Medical Center Drive\\Room 130C\\Columbus, OH 43210-1228
+		\item[] (614) 293-3499
+		\item[] Janice.Kiecolt-Glaser@osumc.edu
+		\end{tightemize}
+\end{itemize}
+\end{minipage}\hfill
+\begin{minipage}[t]{3in} 
+\begin{itemize}
+	\mybf{Abigail Shoben}\\\myit{Associate Professor, Biostatistics}
+		\begin{tightemize}
+		\item[] 1841 Neil Ave\\249 Cunz Hall\\Columbus, OH 43210
+		\item[] (614) 247-8092
+		\item[] shoben.1@osu.edu
+		\end{tightemize}
+		\listsep
+	\mybf{Jack Miller}\\\myit{Lecturer IV\\Statistics Education Specialist}
+		\begin{tightemize}
+		\item[] 427 West Hall\\1085 South University\\Ann Arbor, MI 48109-1107		
+		\item[] (734) 931-0411
+		\item[] jabmille@umich.edu
+		\end{tightemize}	
+\end{itemize}
+\end{minipage}
+\end{comment}
+
+\label{pp: endDoc}
+\end{document}  \documentclass[]{article}
+-->
+
+
+
+
+
+
