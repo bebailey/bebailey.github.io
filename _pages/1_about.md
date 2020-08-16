@@ -6,7 +6,7 @@ description: <a href="https://www.amherst.edu/people/facstaff/bebailey">Postdoct
 
 profile:
   align: right
-  image: BrittneyBailey-Curtin.jpg
+  image: BrittneyBailey_2020square.jpg
    # address: >
    #   <p>(413) 542-2823</p>
    #   <p>Campus Box 2239, PO Box 5000</p>
