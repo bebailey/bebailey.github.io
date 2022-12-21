@@ -1,0 +1,659 @@
+---
+title: "Internship archive"
+---
+
+The following is an archived list of internship opportunities compiled in the 2019-2020 academic year. Many of the opportunities may still be offered with similar deadlines. 
+
+
+
+For a more comprehensive list of summer opportunities, check out some of the following:
+
+* [Pathways to Science list of  summer programs in statistics](https://www.pathwaystoscience.org/programs.aspx?u=Undergrads_Undergraduate+Students&sm=&sd=&sy=&d=MAT-Stats_Statistics&dd=SummerResearch_Summer+Research+Opportunity&submit=y&dhub=SummerResearch_Summer+Research+Opportunity)
+* [Swarthmore's List](https://www.swarthmore.edu/mathematics-statistics/summer-research-mathematics-statistics)
+* [Berkeley's List](https://statistics.berkeley.edu/programs/undergrad/resources)
+* [ASA 2020 Statistics Internship List](https://stattrak.amstat.org/2019/12/01/2020-internship-listings/)
+* [Summer Institutes in Biostatistics (SIBS)](https://www.nhlbi.nih.gov/grants-and-training/summer-institute-biostatistics)
+
+***
+# Internship archive
+
+### [The Institute for Defense Analyses](https://chu.tbe.taleo.net/chu01/ats/careers/v2/viewRequisition?org=INSTITUTEDA&cws=39&rid=1459) (Alexandria, Virginia, and Washington, DC)
+#### January 4, 2020
+
+The Institute for Defense Analyses’ (IDA) Summer Associate Program provides students with a unique opportunity to use their quantitative and analytic skills to work on challenging real-world national security issues. Positions are available with a variety of foci. Projects from past years have included functional data analysis, Bayesian approaches to reliability estimation, and statistics in science policy.
+
+IDA is a not-for-profit corporation that operates federally funded research and development centers (FFRDCs). Two of these are accepting summer associates.
+
+Staff at the IDA Systems and Analyses Center (SAC) provide objective analyses of national security issues, particularly those requiring scientific and technical expertise, and conduct related research on other national challenges. SAC, located in Alexandria, Virginia, is comprised of the following eight research divisions:
+
+Cost Analysis and Research
+Information Technology and Systems
+Intelligence Analyses
+Joint Advanced Warfighting
+Operational Evaluation
+System Evaluation
+Science and Technology
+Strategy, Forces, and Resources
+Staff at the IDA Science and Technology Policy Institute (STPI), located in Washington, DC, assist the White House Office of Science and Technology Policy and other executive branch agencies in formulating federal science and technology policy by providing high-quality, objective, analytical support to inform policymakers.
+
+Each year, IDA hires paid student associates at its Virginia and Washington, DC, facilities to work a minimum of 10 weeks during the summer months. Attendance at the nine-week core period between June 8, 2020, and August 7, 2020, is required. An additional week either before or after the core period is required for a complete 10-week internship. In some cases, opportunities exist for associates to work a few weeks longer than the 10-week minimum.
+
+The wage range is dependent on the field of study and years of education completed. For students living outside the area, IDA pays for one instance of round-trip travel. Associates are responsible for living expenses during the summer.
+
+**Eligibility**
+
+* U.S. Citizenship is required
+* Ability to obtain and maintain a security clearance is required
+
+***
+
+### Mayo Clinic
+#### January 15
+
+The Mayo Clinic Division of Biomedical Statistics and Informatics has summer internship opportunities for undergraduate students who have completed their junior year and graduate students at all levels. Internships of 6–9 months may also be offered.
+
+Interns will work with statisticians, bioinformaticists, and clinical investigators on research projects in areas such as clinical trials, statistical genetics, and bioinformatics. Experience with SAS and/or R preferred. Whether an individual applicant will be offered a position will depend on their qualifications, our need and available funding, and the number of applicants.
+
+To apply, submit an unofficial transcript, résumé, and cover letter. Search keyword “Biostats” (statistical internship) or “Intern-IS” (informatics internship) and our current openings will be available.
+
+For more information, review our professional opportunities.
+
+Contact: [Bud Harris](mailto:Harris.Bud@mayo.edu), Department of Human Resources, Mayo Clinic, 200 First St. SW, Rochester, MN 55905; (480) 342-3493; (507) 284-1445 (fax).
+
+***
+
+### [Memorial Sloan Kettering: Quantitative Sciences Undergraduate Research Experience (QSURE)](https://www.mskcc.org/departments/epidemiology-biostatistics/quantitative-sciences-summer-undergraduate-research-experience-qsure)(Manhattan, NY)
+#### January 17
+The QSURE program is an NCI funded internship program, designed to provide a hands-on research experience to undergraduates with an aptitude for and interest in quantitative sciences in cancer. Students will participate in an individual research project and receive exposure to methods in biostatistics, epidemiology and health outcomes research. Through the program, students will advance their quantitative skills and knowledge, as well as their understanding of options for graduate study and careers in these areas. Student research projects will be individualized and will address topics such as factors that improve cancer survival, building models to predict individuals at high risk of cancer, cancer risk factors and prevention, computational biology/cancer genetics and genomics, quality and cost of cancer care, treatment-related side effects in cancer survivors, and disparities in cancer care and outcomes.
+
+Competitive applicants must have a keen interest in cancer and population health, demonstrated aptitude in data analysis, and excellent oral and written communication skills. The program provides a modest stipend for the 10-week summer internship at the Department of Epidemiology and Biostatistics, located in midtown Manhattan. Students are responsible for their own housing, but QSURE will provide a nominal reimbursement for housing expenses.
+
+**Eligibility**
+
+* Completed at least one academic year of college, 
+* Completed one college level statistics course (AP statistics doesn't count)
+* Enrolled as full-time undergraduate student. 
+* Authorized to work in the US.
+
+***
+
+### [American Political Science Association: Ralph Bunche Summer Institute](https://www.apsanet.org/rbsi)   (Durham, NC)
+#### January 17
+Named in honor of the 1950 Nobel Peace Prize winner and former APSA President, Ralph J. Bunche, the RBSI encourages students to pursue academic careers in political science by: 
+
+* enhancing writing, research, and analytical skills to increase competitiveness in the application and financial aid process for graduate school; 
+* developing statistical skills for data analysis used in political science; 
+* exposing participants to the significant questions in the discipline and profession of political science; 
+*introducing participants to leading political scientists; 
+* educating participants about political science career opportunities and encouraging their application to doctoral programs in political science. 
+
+RBSI is an annual, intensive five-week program held at Duke University. It is designed to introduce to the world of doctoral study in political science those undergraduate students from under-represented racial and ethnic groups or those interested in broadening participation in political science and pursuing scholarship on issues affecting underrepresented groups or issues of tribal sovereignty and governance. Participants in the RBSI are drawn from a competitive national applicant pool. 
+
+**Eligibility**
+
+* Member of one of the following underrepresented racial or ethnic minority groups: African Americans, Asian Pacific Americans, Latinos/as, American Indians or Alaska Natives, and Native Hawaiians, or an individual who is interested in broadening participation in political science by students from underrepresented minority populations and pursuing scholarship on issues affecting underrepresented groups or issues of tribal sovereignty and governance. 
+* College/university juniors. 
+* Demonstrate an interest in teaching and potential for research in political science. 
+* US citizen, US national, US permanent resident (holder of a Permanent Resident Card), or an individual granted deferred action status under the Deferred Action for Childhood Arrivals Program (DACA) at time of application.  
+
+***
+### [Carnegie Mellon University: Data Science for Social Good](http://www.dssgfellowship.org) (Pittsburgh, PA)
+#### January 31
+The Data Science for Social Good Fellowship is a full-time summer program to train aspiring data scientists to work on machine learning, data science, and AI projects with social impact in a fair and equitable manner. Working closely with governments and nonprofits, fellows take on real-world problems in education, health, criminal justice, sustainability, public safety, workforce development, human services, transportation, economic development, international development, and more.
+
+For three months they learn, hone, and apply their data science, analytical, and coding skills, collaborate in a fast-paced atmosphere, and learn from full-time mentors coming from industry and academia.
+
+**Eligibility**
+
+Although we’d love to have people at all levels involved, we prefer you to be a graduate student or at least a senior in college to get the most out of this program. This is because we have learned over the years that fellows with prior skills are able to both get the most out of their experience, as well as contribute the most. That said, if you feel like you may not fit the typical criteria of a Fellow, but have both the computational skills and passion to excel, we’d still love to see your application.
+
+### [Carnegie Mellon University: Data Science for Social Good](http://www.dssgfellowship.org) (Pittsburgh, PA)
+#### January 31
+The Data Science for Social Good Fellowship is a full-time summer program to train aspiring data scientists to work on machine learning, data science, and AI projects with social impact in a fair and equitable manner. Working closely with governments and nonprofits, fellows take on real-world problems in education, health, criminal justice, sustainability, public safety, workforce development, human services, transportation, economic development, international development, and more.
+
+For three months they learn, hone, and apply their data science, analytical, and coding skills, collaborate in a fast-paced atmosphere, and learn from full-time mentors coming from industry and academia.
+
+**Eligibility**
+
+Although we’d love to have people at all levels involved, we prefer you to be a graduate student or at least a senior in college to get the most out of this program. This is because we have learned over the years that fellows with prior skills are able to both get the most out of their experience, as well as contribute the most. That said, if you feel like you may not fit the typical criteria of a Fellow, but have both the computational skills and passion to excel, we’d still love to see your application.
+
+***
+
+### [Mental Health in the Country of Ukraine](https://www.dordt.edu/academics/ukraine-reu) (2 weeks in Kiev, Ukraine; 8 weeks in Sioux Center, IA)
+#### January 31
+
+Undergraduate students with an interest in applying complex survey sampling techniques to the analysis of population-based psychological/mental health data from Ukraine are encouraged to apply to this international research program. Successful applicants will work with a team of other undergraduate students on interdisciplinary research projects investigating a variety of research questions about this developing country, leading to publication in peer-reviewed journals and presentations at regional and national conferences.
+
+Participants will receive a $5,000 stipend for the 10-week program, which runs from May 18 to July 24, 2020. The first two weeks will be spent in Ukraine (travel, lodging, and related expenses are paid for by the program), working with research collaborators at the Kiev International Institute of Sociology. The remaining eight weeks will be spent in Sioux Center, Iowa.
+
+Some projects are appropriate for students with more statistical background and others for students with less, so all levels of students are encouraged to apply. Free apartment-style housing and funds for travel to/from Sioux Center, Iowa, will be provided. Applicants must be US citizens.
+
+**Eligibility**
+
+* Students who have not received a 4-year undergraduate degree by Summer 2020 are eligible to apply for this REU
+* Students who are a US Citizen or a Permanent Resident of the US are eligible to apply for this REU – international students are not eligible for this REU
+* Students from institutions other than Dordt University are eligible – and encouraged – to apply for this REU
+
+***
+
+### Social and Decision Analytics Division, Biocomplexity Institute and Initiative, University of Virginia (Arlington, VA)
+#### January 31
+
+The Social and Decision Analytics Division (SDAD) is seeking applications for graduate fellows and undergraduate interns for its Data Science for Public Good (DSPG) program. The DSPG program will run for 11 weeks (May 26 – August 7) for graduate fellows and 10 weeks (June 1 – August 7) for undergraduate interns. Fellows and interns will work in teams collaborating with postdoctoral associates and research faculty from SDAD and project stakeholders. The research teams will combine disciplines including statistics, data science, and the social and behavioral sciences to address complex problems proposed by local, state, and federal agencies.
+
+Visit the DSPG website for more information about the program.
+
+To apply, [submit an application online](https://uva.wd1.myworkdayjobs.com/UVAJobs) and search for requisition number R0010930. Attach a current CV/résumé, transcript, and cover letter with your relevant experience and interest in the position. Please have three confidential letters of reference sent to [dspg2020@virginia.edu](mailto:dspg2020@virginia.edu).
+
+Contact: [Gizem Korkmaz](mailto:gkorkmaz@virginia.edu), Social and Decision Analytics Division, Biocomplexity Institute and Initiative – University of Virginia, 1100 Wilson Blvd., Office #2910, Arlington, VA 22209; (434) 243-7334
+
+***
+
+### [Dordt University: Undergraduate Research Program in Statistical Genetics](https://www.dordt.edu/academics/research-and-scholarship/undergraduate-summer-research/statistical-genetics-and-biostatistics)
+(Sioux Center, IA)
+#### January 31
+
+Undergraduate students with an interest in statistical genetics and biostatistics are encouraged to apply to participate in the 14th consecutive year of our nationally recognized undergraduate research program in statistical genetics. Successful applicants will work with a team of other undergraduate students on cutting-edge problems in statistical genetics leading to publication in peer-reviewed journals and presentations at regional and national conferences.
+
+Participants will receive a $4,000 stipend for the eight-week program, which runs from June 1 to July 24, 2020. Free apartment-style housing and funds for travel to/from Sioux Center, Iowa, will be provided.
+
+Applicants must be US citizens.
+
+Some hiring may take place prior to the deadline, so applicants are encouraged to submit their application materials as soon as possible.
+
+An application and additional information can be found on the website.
+
+***
+### [Mount Sinai Center for Bioinformatics: Summer Research Training Program in Biomedical Big Data Science](http://labs.icahn.mssm.edu/maayanlab/summer-research-program/) (New York, NY)
+#### February 1
+The Mount Sinai Center for Bioinformatics and Ma'ayan Laboratory's Summer Research Training Program in Biomedical Big Data Science is a research intensive ten-week training program for undergraduate and graduate students interested in participating in cutting edge research projects aimed at solving data-intensive biomedical problems. Summer fellows training in the Ma'ayan Laboratory conduct faculty-mentored independent research projects in the following areas: 
+
+* data harmonization
+* machine learning
+* cloud computing
+* dynamic data visualization.
+
+**Eligibility**
+
+* US citizens or permanent residents
+* An undergraduate or master’s student in good academic standing
+* Majoring in Computer Science, Informatics, Mathematics, Statistics, Physics, Engineering, Chemistry/Chemical Sciences or Biological Sciences and have an interest in Biomedical Big Data Science.
+
+***
+### John Deere (Moline, IL)
+#### February 1
+The data and analytics intern program is for students who have completed at least one year of their bachelor’s or master’s program and are looking for a 2–3-month summer internship. Our analytic internship will provide an opportunity for you to apply your data science skills to business problems within a specific department and functional area. Opportunities exist across varied functional areas such as financial services, information technology, precision agriculture, customer and product support, supply management, sales and marketing, order fulfillment, and engineering.
+
+Responsibilities:
+
+* Lead and/or support key analytics projects
+* Integrate large and diverse data sets
+* Learn and apply appropriate data science techniques to solve business problems
+* Collaborate with data and analytics colleagues and key business stakeholders
+
+**Eligibility**
+
+Contact [Megan Osterberg](mailto:jdjobs@johndeere.com)
+
+***
+
+### [University of Utah: Genomics Summer Research for Minorities Internship](https://medicine.utah.edu/pediatrics//research/education/gsrm.php) (Salt Lake City, UT)
+#### February 3
+GSRM internship provides a ten-week summer research program for undergraduate students interested in genomics research, personalized medicine and biosciences. The GSRM is funded by an NIH Research Education Program (R25) and supported by the University of Utah Department of Pediatrics. The paid internship provides students with placement in world-class genomics research groups, tailored mentorship, professional development workshops and access to state-of-the-art equipment and technology. Interns have the opportunity to interact with a thriving community of scientists, physicians and mentors that recognize the need to promote diversity in the Science, Technology, Engineering and Math (STEM) workforce. 
+
+We offer a generous stipend (up to $5500), travel support for out of state students and free housing on the university campus. Students will attend a National conference and can request physician shadowing opportunities.
+
+**Eligibility**
+
+* U.S. citizen or permanent resident and a member of an underrepresented minority group (as defined by the National Institutes of Health). We particularly encourage the participation of women, individuals from underrepresented and disadvantaged minority groups, and individuals with disabilities. 
+* Completed their sophomore year before joining our GSRM program.
+* Enrolled in a four-year college for Fall 2020, with a graduation date of December 2020 or later.
+
+*** 
+
+### [BioxFEL](https://www.bioxfel.org/education/undergraduate-internships)
+### University at Buffalo (Buffalo, NY)
+### Hauptman-Woodward Medical Research Institute (Buffalo, NY)
+### Arizona State University (Tempe, AZ)
+### University of Wisconsin (Milwaukee, WI)
+### Rice University (Houston, TX)
+### SLAC National Accelerator Laboratory (San Mateo County, CA)
+
+#### February 7
+BioXFEL is a National Science Foundation Science and Technology Center (STC) that focuses on promoting and advancing the study of Biological molecules using X-ray Free Electron Lasers (XFELs). A summer internship is the best way to get started in this new and exciting field.  This is a highly competitive program where students will be given hands-on training in XFEL-related laboratory techniques. The internship also includes a scientific communications workshop, educational seminars and social activities. At the end of the 10-week program, students present their research results to the group. Internships run from the last week of May through the first week of August. Interns that require on-site housing will check into their dorms on Memorial Day, May 26th and check out on Saturday, August 8th.
+
+**Eligibility**
+
+* US citizens or US Nationals
+* Interested in pursuing a career in research
+* Background in physics, chemistry, biochemistry, mathematics, computer science or any related fields
+
+***
+
+### NEW!!! [SROP: Summer Research Opportunities Program](https://www.btaa.org/resources-for/students/srop/introduction) (Various Locations)
+#### February 10
+The Summer Research Opportunities Program (SROP) is a gateway to graduate education at Big Ten Academic Alliance universities. The goal of the program is to increase the number of underrepresented students who pursue graduate study and research careers. SROP helps prepare undergraduates for graduate study through intensive research experiences with faculty mentors and enrichment activities.
+
+Each year SROP applications are accepted between November 1 and February 10. The Big Ten Academic Alliance universities SROP application allows you to apply to up to 10 widely-recognized summer research programs at participating Big Ten Academic Alliance universities institutions using a single application. One of the benefits of using the Big Ten Academic Alliance universities SROP application is that you only need to upload one transcript to a central location (the Big Ten Academic Alliance universities) and your faculty recommenders will only be required to submit one online letter of recommendation (TWO LETTERS required in total). Upon completion, your application will be viewable by faculty from ten top research universities.
+
+This program will entail:
+
+* Weekly campus-based educational enrichment activities broaden your view of graduate education and research, along with strengthening your technical skills.
+* Campus workshops inform you about graduate admission procedures, financial aid opportunities, test-taking skills, preparing a presentation, and expose you to a wide range of research fields. Informal social gatherings provide a relaxed setting for students and faculty to exchange ideas and share experiences.
+* At the end of the summer, you present the results of your research project at a symposium or poster session held on your campus.
+
+**Eligibility**
+
+Students wishing to participate in SROP must meet all of the following criteria:
+
+* Have a cumulative GPA of 3.0 or higher (4.0 scale)
+* Be a citizen or a permanent resident of the U.S.
+* Be enrolled in a degree-granting program at a college or university in the United States, Puerto Rico, or other U.S. territory
+* Have completed at least two semesters of undergraduate education by the time of the summer experience
+* Have at least one semester of undergraduate education remaining after completing the summer research experience
+* Have a strong interest in pursuing a Ph.D.
+* Willing to complete 40 hours of research each week
+* Not work an additional job during the summer program
+
+### [Boston University: Summer Institute for Research Education in Biostatistics (SIBS)](https://www.bu.edu/sph/about/departments/biostatistics/summer-institute-for-training-in-biostatistics/) (Boston, MA)
+#### February 10
+If you are an undergraduate with an interest in mathematics, statistics, biology or health sciences and would like to learn how to apply methods to investigate important health issues, come join us for our highly successful Summer Institute for Training in Biostatistics program. 
+
+Participants in the six-week program will: 
+
+* Learn the principles of applied biostatistics from recognized experts in the field; 
+* Interact daily with award-winning faculty who make learning biostatistics interesting, relevant, and fun. 
+* Meet practicing biostatisticians, epidemiologists and statistical geneticists and learn about their work in small group interactive settings; 
+* Gain hands-on experience working with actual data collected in internationally recognized studies that have been funded by the National Heart, Lung and Blood Institute; 
+* Learn about opportunities for graduate study and additional training; 
+* Explore an ever-growing field that is critically important in studies to improve the world we live in; and participate in a variety of unique Boston experiences (historical sites, cultural and sporting events), meet new people, and have lots of fun. while earning college credit 
+
+Costs for housing, tuition, meals, and extra-curricular activities are covered by the program.
+
+**Eligibility**
+
+* Current undergraduate students and recent graduates majoring in mathematics, science or other quantitatively oriented areas of study are eligible. 
+* Applicants must be American citizens or permanent residents of the United States.
+
+***
+
+### [LA's BEST@USC](https://preventivemedicine.usc.edu/education/summer-programs/lasbest/) (Los Angeles, CA)
+#### February 10
+Students will conduct summer research for six weeks from June 15, 2020, through July 24, 2020, with training from public health leaders. All students will receive formal training in biostatistics and meet experts in epidemiology, molecular biology, cancer, and clinical research with opportunities to work on real data sets. The main focus will be on heart and lung diseases, but students will also have the opportunity of being introduced to a wide range of public health research topics including cancer, metabolic disorders, and genetics. At the end of the summer session, students will present their research findings to the Keck community. Students will receive 2.0 units of college credit, tuition, housing, meals and cost of transportation from their homes. All expenses will be covered by the program.
+
+**Eligibility**
+
+* U.S. citizen or permanent resident
+* Completed at least two years of undergraduate study
+
+***
+
+### [University of Alabama: Summer Institute for Research Education in Biostatistics (SIBS)](https://www.uab.edu/medicine/sibs/) (Birmingham, AL)
+#### February 14
+The Summer in Biomedical Science (SIBS) Undergraduate Research Program will provide the opportunity for young people to be instructed in the techniques of modern biology while becoming integrated members of a vibrant clinical and scientific community.  
+
+Fifteen students who will be sophomore or junior level college undergraduates in March 2020 will be accepted into an 8-week paid summer program (2020 dates: June 1, - July 24, 2020) to work with faculty members on mentored research projects. US Citizens or Permanent Residents are eligible to apply; International Students are not eligible.
+
+SIBS participants will receive a stipend of $3,200 for their participation in the program.
+Campus housing will be provided but travel expenses are not covered.
+
+**Eligibility**
+
+* US citizens or permanent residents
+* Sophomore or junior level standing. We accept applications from students who are true freshman, but have sophomore or junior level standing due to credits from high school AP or other coursework. We do not accept applications from seniors in college.
+
+***
+
+### [University of Wisconsin: Summer Research Program in Biomedical Data Science](http://bmiweb.biostat.wisc.edu/content/summer-research) (Madison, WI)
+#### February 15
+The summer research program in Biomedical Data Science (BDS) gives undergraduate students the opportunity to explore careers in biostatistics, bioinformatics, and biomedical big data by working closely with faculty and staff mentors. Such an experience is ideal for students with strength in mathematics and computer sciences who enjoy working with computers and numbers and wish to apply their skills to solving real world problems in biomedical research. There are approximately 50 faculty members actively involved in a wide variety of research activities, including brain image analysis, clinical trials, electronic health records, epidemiology, genomics, experimental design and analysis of laboratory studies.
+
+The BDS program is designed to be accessible to undergraduates who might not otherwise have this kind of research opportunity. There is no cost for program participation. In addition, a stipend is provided to each student, and housing and travel costs are covered. Underrepresented minority, low-income, and first-generation college students are strongly encouraged to apply, as are students from smaller institutions without broad research facilities.
+
+**Eligibility**
+
+* U.S. citizens or permanent residents enrolled in an accredited college/university, majoring in either a quantitative science or in biology, and have successfully completed at least one year of calculus.
+* African American, Hispanic, Native American, Southeast Asian, Native Alaskan or Native Pacific Islander, OR students (of any ethnic background) who are McNair scholars, OR students who attend small liberal arts institutions without broad research facilities are strongly encouraged to apply.
+* Students with disabilities are welcome. Accomodations are available! For more information please visit www.mcburney.wisc.edu
+* Preference will be given to students who will have completed their junior year and who have a cumulative grade point average of at least 3.0.
+
+***
+
+### [Thomas Jefferson University Division of Biostatistics](https://jeffline.jefferson.edu/education/programs/biostatistics_si/) (Philadelpha, PA)
+#### February 15
+
+Jefferson’s division of biostatistics in the department of pharmacology and experimental therapeutics will sponsor up to three students as summer interns, who will do the following:
+
+* Research statistical topics relevant to biomedical research
+* Apply statistical thinking to biomedical research problems
+* Analyze real-world biomedical data and interpret the results
+* Develop statistical programming skills in SAS, R, and other languages
+* Develop and practice communication of statistical methods and results through written and oral presentations
+* Receive guidance and mentoring regarding their future studies and career trajectory
+
+The internship will run for 8–10 weeks from June to August. Interns will be paid a stipend, which will be dependent on academic level, experience, and work schedule.
+
+Applicants should have an interest in pursuing a career in (bio)statistics, data science, or another quantitative field with a focus on the biomedical sciences and may be current students or recent graduates.
+
+For undergraduate students (or those with an undergraduate degree), any degree program is acceptable, but applicants should have strong mathematical and analytical skills and at least one course in computer programming.
+
+Applications will be reviewed and requests for interviews will be sent on a rolling basis.
+
+Contact: [Gloria Elnitsky](mailto:Gloria.Elnitsky@jefferson.edu), (215) 955-9079.
+
+***
+
+### Shionogi, Inc. (Florham Park, NJ)
+#### February 15
+The intern will work closely with experienced statistics project leaders and trial lead statisticians. The intent is to offer exposure across projects and therapeutic areas regarding the day-to-day job of an industry statistician to demonstrate the opportunities in statistics in the pharmaceutical industry. In return for this opportunity, the intern will be responsible for, but not limited to, the following:
+
+* Data analysis and interpretation from clinical trials under the direction of the trial lead statistician and/or project lead statistician across phases 1 through 3
+* Identifying and applying appropriate statistical techniques, methodologies, and software to actual clinical trial data
+* Learning about ongoing projects
+* Contributing to ongoing study design efforts
+* Participating in statistical research projects and statistical lunch and learn discussions
+* The successful candidate will be a self-starter who can find opportunities and accomplish beyond the planned internship. Shionogi, Inc. is open to working in concert with the candidate to maximize the experience.
+
+*Qualifications*
+
+* Experience with software packages, including SAS. Experience with R is a plus, as is experience with SAS Viya.
+* Good verbal and written communication skills.
+* Current PhD candidate or master’s degree candidate. Will consider bachelor’s candidate who has been highly successful in undergraduate statistical curriculum and plans to pursue higher statistical candidate degrees.
+
+Our people are the foundation of our culture at Shionogi, Inc. Collaboration is central to who we are and how we work. We combine the spirit and nimbleness of an entrepreneurial culture with the resources of a global company. Shionogi, Inc. (SI) biometrics is a multi-function group as part of the SI clinical development department. SI biometrics is a strategic partner in generating data-driven evidence through our Statistics, Data Management, and Statistical Programming Group. SI Biometrics is part of a global biostatistics group that includes these functions, as well as data scientists.
+
+Shionogi, Inc. is an equal opportunity/affirmative action employer. It is the policy of Shionogi, Inc. to undertake affirmative action in compliance with all federal, state, and local requirements to recruit a diverse pool of applicants and ensure our employment practices are, in fact, nondiscriminatory.
+
+Contact: [Bruce Binkowitz](mailto:bruce.binkowitz@shionogi.com), 300 Campus Drive, Florham Park, NJ 07932; (973) 307 3487.
+
+***
+### [iSchool Inclusion Institute (i3)](http://www.i3-inclusion.org/summer-institutes/2020-institute/) (Pittsburgh, PA)
+#### February 17 (early applications will receive priority consideration)
+The iSchool Inclusion Institute (i3) is an undergraduate research and leadership development program that prepares students from underrepresented populations for graduate study and careers in the information sciences. Only 25 students from across the country are selected each year to become i3 Scholars. Those students undertake a yearlong experience that includes two summer institutes hosted by the University of Pittsburgh School of Computing and Information and a research project spanning the year. i3 prepares students for the rigors of graduate study and serves as a pipeline for i3 Scholars into internationally recognized information schools—the iSchools. Most importantly, i3 empowers students to create change and make an impact on the people around them.
+
+**Eligibility**
+
+* Undergraduate students enrolled in an accredited college, including community colleges, or university in the United States OR students who have recently graduated
+* U.S. citizens, permanent residents, or DACA recipients
+
+
+***
+
+
+
+### [Worcester Polytechnic Institute: Research Experiences for Undergraduates in Industrial Mathematics and Statistics](http://www.wpi.edu/+CIMSREU) (Worcester, MA)
+#### Feb 21
+The REU Program in Industrial Mathematics and Statistics started at WPI in 1998 with funding from the National Science Foundation (NSF). It was the first mathematics REU program in the US that exclusively involves students in real-world projects sponsored by corporate partners.
+
+This nine week program offers outstanding undergraduate students the opportunity to work on mathematical and statistical problems in close collaboration with faculty and industrial sponsors. 
+
+The program is designed to provide a glimpse of the ways that advanced mathematics is used in the real world to solve complex problems. The students work on problems which begin with a real-life problem generated by our industrial sponsors. They work closely with a company representative to define the problem and develop solutions of immediate value to the company. They are guided by a faculty advisor to maintain a clear focus on the mathematical issues at the core of the project.
+
+* What is the role of a mathematician in business and industry?
+* What is it like to work with technical experts on a problem that requires significant * mathematics but also must satisfy real-world constraints?
+* What kind of mathematical and statistical tools are used to solve problems in business and industry?
+
+The REU program at WPI provides a unique experience that answers these questions, an experience that complements standard academic training.
+
+**Eligibility**
+
+* US Citizens or Lawful Permanent Residents. 
+
+***
+
+### [NEW! Carnegie Mellon: Summer Undergraduate Research Experience in Statistics](https://http://summer.stat.cmu.edu) (Pittsburgh, PA)
+
+#### February 29
+The Summer Undergraduate Research Experience in Statistics provides participants with hands-on experience working with real data, on real problems, in a stimulating, collaborative, and supportive environment.
+
+The Department of Statistics & Data Science at Carnegie Mellon University is world-renowned for the quality and depth of its collaborations with disciplines ranging from astronomy to genetics to neuroscience to education to finance. Participants in this program will engage with the faculty and graduate students actively involved with these projects. Students will work in small groups, under the supervision of an advisor and with assistance from PhD students in the department.
+
+For 2020, the program theme is “Data Science in Sports Analytics”. Carnegie Mellon Statistics & Data Science is very active in sports analytics at both the undergraduate and graduate level and collaborates with professional and academic analysts across several sports. Information about the annual Carnegie Mellon Sports Analytics Conference (and the upcoming summer program) can be found at http://www.stat.cmu.edu/cmsac.
+
+The program will concentrate on statistics and data science methodology with applications in sports. Students do NOT need to have extensive knowledge about sports to participate. Students will have opportunities to learn from guest experts in the field and gain first hand experience in modern sports analytics.
+
+Participants will receive a stipend of $4000. This is provided to cover all travel and living expenses while participating in the program.
+
+Housing Support: Students will be provided with housing through CMU.
+
+**Eligibility**
+
+* The program is open to any undergraduates who are based at U.S. institutions, entering their junior or senior year in Fall 2020. 
+* There are no specific course prerequisites, we only require an interest in learning about modern approaches to statistical inference in data-rich fields of application. Experience in sports analytics is not required.
+
+***
+
+### [Amherst College: Summer Undergraduate Research Fellowship (SURF)](https://www.amherst.edu/academiclife/support/funding/students/amherst-student-research-funding-opportunities/summer-research-opportunities-at-amherst/surf-program) (Amherst, MA)
+#### February
+The 2020 SURF Program is an 8 to 9 week program, June 8rd- August 7th. Most projects are 8 weeks long, but some exceptions will be made for longer projects as coordinated with the SURF mentor. 
+
+**Eligibility**
+
+Applicants must be students of Amherst College.
+
+***
+
+### [Columbia University: Biostatistics Epidemiology Summer Training (BEST)](https://www.mailman.columbia.edu/research/biostatistics-epidemiology-summer-training) (New York City, NY)
+#### March 1
+The Biostatistics Epidemiology Summer Training Diversity Program (BEST) was established to expand and diversify the behavioral and biomedical sciences’ workforce by introducing undergraduates from underrepresented populations to biostatistics and cardiovascular and pulmonary disease research. Students representing racial and ethnic minority groups, disadvantaged backgrounds, and students with disabilities join the Department of Biostatistics at Columbia University’s Mailman School of Public Health’s for eight weeks of research, training, academic and career planning, and social activities around New York City.
+
+Following the success of the seven-student, 4-week pilot in 2008, BEST received a five-year grant from the National Heart, Lung and Blood Institute to expand the program to host 10-15 students for eight weeks each summer. All participants will receive a $2800 stipend as well as some funds to offset costs of food and travel to and from New York City. Students living outside of the NYC area have the option for free housing.
+
+**Eligibility**
+
+Applicants must represent one of the following groups: 
+
+* Racial/ethnic minorities (African-Americans, Hispanic/Latino-Americans, Native Americans or Alaskan Natives)
+* Economically disadvantaged; these include:
+  * Students currently receiving or who in the past have received: federal disadvantaged assistance, Health Profession Student loans (HPSL) for Disadvantaged Student Program, or scholarships from the U.S. DHHS under the Scholarship for Individuals with Exceptional Financial Need.
+  * Students from social, cultural, or educational environments that have demonstrably and recently directly inhibited the individual from obtaining the knowledge, skills, and abilities necessary to develop and participate in a research career.
+* Physically or mentally disabled
+
+Qualified applicants to the program must:
+
+* Be enrolled and have completed at least one year of undergraduate work at an accredited school or university OR be enrolled at a community or junior college, completing at least 3 courses per academic term.
+*  Have completed at least 1 semester of college calculus (regardless of academic major)
+* Must be a U.S. citizen OR U.S. permanent resident.
+* Complete and submit a program application by March 1, 2020
+* Possible phone interview with a member(s) of the BEST admissions committee (following application submission)
+
+***
+
+### [Hands-on research in Genomics and Computational Biology](https://www.genetics.uga.edu/fungal-genomics-and-computational-biology) (Athens, GA)
+#### March 1
+
+Hands-on research in Genomics and Computational Biology will bring participants recruited nationally from underrepresented groups to the University of Georgia campus for 10 weeks in the Summer.
+
+The first week involves lab safety training, learning to keep a lab notebook, participating in a sequence of group Genomics labs in the mornings, Computational labs in the afternoons, and Genomics lectures that will correspond with both the Genomics & Computational Biology labs. Group posters from these labs will be prepared by the participants and presented at the ending poster session.
+
+The balance of the ten weeks will be spent in individual labs developing an independent research project in partnership with a faculty mentor. Individual posters will be completed, and there will be a poster session at the conclusion of the 10 week program.Work with the individual faculty mentors can continue during the coming academic year and eventually result in a publishable work. Our REU participants have published in Science, Nature, PNAS, and IEEE Access.
+
+Weekly seminars are held in career development and bioethics.Participants will be expected to participate in research at least 40 hours per week. Students may not enroll in classes or hold outside employment during the program. All participants are expected to stay for the full 10 weeks.
+
+Each participant will receive a $5,000 stipend toward food and expenses, travel money up to the program limit, a shared dorm room on the same floor with the NSF funded REU programs in Physics and Microbiology, free transportation on campus, lab safety training and preparation to work in any type scientific lab.
+
+**Eligibility**
+
+* Applicants must be undergraduate students who are citizens or permanent residents of the United States.
+* Students who have either graduated or recently completed all requirements for their degree are not eligible.
+
+***
+### [Two Sigma](https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Quantitative-Researcher-Internship/6035) (New York, NY)
+#### March 1
+
+As a quantitative research intern, you will take on the following responsibilities:
+
+Use the scientific method to develop sophisticated investment models and shape our insights into how the markets will behave
+Apply quantitative techniques such as machine learning to a vast array of data sets
+Create and test complex investment ideas and partner with our engineers to test your theories
+All the while, you’ll remain engaged in the academic community. As examples, you can do the following:
+
+* Join our reading circles to stay up to date on the latest research papers in your fields
+* Attend academic seminars to learn from thought leaders from top universities
+
+The internship program lasts 10 weeks in the summer and takes place at our Soho-based, New York City office. You will partner with an assigned mentor and work on a single project during the course of your time here, which will culminate in a final presentation.
+
+***
+
+### The University of North Carolina Center for AIDS Research] (Chapel Hill, NC)
+#### March 4 (rolling admission)
+
+The Biostatistics Core at UNC Center for AIDS Research is seeking a part‐time paid summer undergraduate intern (~20+ hours/week). The core helps design studies, analyze data, and advance statistical methods for HIV research at UNC and internationally.
+
+As a summer intern, you will have the opportunity to aid in statistical analysis and gain valuable experience in multidisciplinary research. Students majoring in math, statistics, computer science, data science, or another quantitative research field are invited to apply. You will gain valuable collaborative research experience.
+
+Students from underrepresented minorities majoring in any of the above fields are highly encouraged to apply. If you have R‐project, SAS, or Python coding experience, let us know. [Visit the website](http://unccfar.org) to learn more about our research (Core: Biostatistics). Summer housing/relocation is the responsibility of the applicant.
+
+Contact: [Katie R. Mollan](mailto:kmollan@unc.edu), Center for AIDS Research, The University of North Carolina at Chapel Hill, 3126 McGavran-Greenberg Hall, CB #7420; (919) 966-8421 (email preferred).
+
+***
+
+### [Worcester Polytechnic Institute: Summer Research Experience in Data Science](https://www.wpi.edu/academics/departments/data-science/reu-program) (Worcester, MA)
+#### Apps open in January
+The Data Science Program at WPI, sponsored by the National Science Foundation, offers a 10-week, all expenses paid Research Experience in Data Science for undergraduate students. The WPI Data Science program has successfully operated the site since 2016. This site offers students from geographically diverse institutions around the country access to vibrant scientific research projects and undergraduate mentorship.
+
+The students, working with WPI faculty, graduate students, and peer students, learn state-of-the-art data science techniques and technologies including machine learning, artificial intelligence and big data technologies.  They apply these new skills to research focused on solving societal challenges of high impact in our communities.
+
+Research topics include digital health, sustainability, and mobility, all interlinked concerns of critical national importance. Students present the results of their research at an Open Poster Session during the final week of the program, and, where appropriate, at scholarly venues and conferences.
+
+**Eligibility**
+
+* US Citizens or Lawful Permanent Residents. 
+* We prefer sophomores and juniors who have a distinct interest in research, all U.S. students  are eligible for the REU program. Those students who have succeeded in courses in programming, computer science, linear algebra, and statistics are of particular interest to our program. Women and underrepresented groups in STEM fields, as well as students from a community college who have transferred to a 4-year institution are encouraged to apply.
+
+***
+
+### [North Carolina State University-Duke University: Summer Institute for Research Education in Biostatistics (SIBS)](http://www.stat.ncsu.edu/sibs/) 
+#### March 7
+
+Biostatistics is the exciting field that applies statistics to medical and public health research. Biostatisticians work closely with experts from other fields in research teams. Together they seek to answer serious and important questions that affect human health and well being.
+
+The demand for biostatisticians TODAY is greater than ever before, and it is expected to continue to INCREASE in the future.
+
+The Summer Institute in Biostatistics (SIBS), sponsored by the National Heart, Lung, and Blood Institute (NHLBI), is a 6-week program to give undergraduate students majoring in or with background in the quantitative sciences the opportunity to explore a career in biostatistics.
+
+Our program has been offered every year since the Summer of 2004. Each year the program was a great success, with over 65% of eligible participants going on to graduate school in the field!
+
+We will be hosting our program June 8 – July 17, 2020, with an opening dinner on June 7.
+
+**Eligibility**
+
+* Undergraduate students (including students who will have graduated in Spring 2020) 
+* US citizens or US Permanent Residents 
+
+***
+
+### [University of Colorado Denver: Summer Institute for Research Education in Biostatistics (SIBS)](http://www.ucdenver.edu/academics/colleges/PublicHealth/Academics/departments/Biostatistics/CoSIBS/Pages/CoSIBS.aspx) (Denver, CO)
+#### Rolling application until all positions filled
+The summer institute for research education in biostatistics is a program sponsored by a grant from the National Heart Lung and Blood Institute (NHLBI) of the National Institutes of Health (NIH).  The purpose of the NHLBI SIBS program is to introduce advanced undergraduate and early-stage graduate students to the field of biostatistics and the frontiers of data sciences.  New technological advances have created exciting opportunities for the diagnosis, treatment, and prevention of disease.  New methods in biostatistics and data sciences are needed to realize the potential of these technological advances.  It is an exciting time for the development of these methods and to guide their translation into clinical care.  Data sciences are the cornerstone of the foundation for the next advances in biomedical research.
+
+The 2020 CoSIBS program June 15-July 25
+CoSIBS is a 6-week program that includes instruction in the theory and application of statistical methods in biomedical research.  Students will have the opportunity to learn the leading computer software packages that are used in the data sciences.  The CoSIBS program will culminate in a group project where students work with leading clinical researchers and biostatisticians on an applied research project.  More detail on the course can be found on the program overview page. 
+
+**Eligibility**
+
+* Undergraduate students (including students who will have graduated in Spring 2020) 
+* US citizens or US Permanent Residents 
+
+### [University of Michigan: Summer Institute for Research Education in Biostatistics (SIBS)](http://bigdatasummerinstitute.com) (Ann Arbor, MI)
+#### Rolling application until all positions filled
+The Big Data Summer Institute, a SIBS program, is a six-week interdisciplinary training and research program in biostatistics that introduces undergraduate students to the intersection of big data and human health — a rapidly growing field that uses quantitative analysis to help solve scientific problems and improve people’s lives.
+
+Drawing from the expertise and experience of outstanding faculty of several departments at the University of Michigan — biostatistics, statistics, and electrical engineering and computer science — the institute exposes undergraduate students to diverse experiences and techniques that distinguishes it from any other undergraduate summer program in biostatistics in the country.
+
+This Summer Institute in Biostatistics (SIBS) program is sponsored by the National Heart, Lung, and Blood Institute (NHLBI), grant R25HL147207, with the intent to introduce undergrad students to the field of biostatistics. Courses will include data collected in studies of heart, lung, blood, and sleep disorders. To learn more about our sister programs, please visit the NHLBI SIBS program website.
+
+The Big Data Summer Institute is also sponsored by Flatiron Health.
+
+The Big Data Summer Institute, a SIBS program, is hosted by the University of Michigan School of Public Health. All coursework takes place at the school, on the University of Michigan campus in Ann Arbor, Michigan.
+
+**Eligibility**
+
+* Be undergraduates at an accredited school or university
+* Have an interest in scientific research
+* Have some background knowledge of computing/programming and an introduction to the theory of probability, calculus and linear algebra; prerequisites are flexible
+* Be a U.S. citizen or Permanent Resident
+
+For all applicants not meeting these four criteria for the SIBS program funding, there is a limited amount of slots funded by the Trehan Foundation and Rackham Graduate School. International students may apply for these slots.
+
+*** 
+
+### [Iowa Summer Institute in Biostatistics (ISIB)](https://www.public-health.uiowa.edu/isib/) (Iowa City, IA)
+#### Rolling application until all positions filled
+The objective of the Iowa Summer Institute in Biostatistics is to provide biostatistical research education and applied research opportunities to undergraduates. The Iowa Summer Institute in Biostatistics (ISIB), in its 11th year, is funded by the National Institute of Health (NIH) and the National Heart Lung and Blood Institute (NHLBI).
+
+The ISIB is a seven-week program. The structure of the program is through case based instruction of real biomedical research, computer laboratory training, research projects, and clinical and translational research enrichment activities.
+
+Coursework will focus on clinical trials, big data, translational research, and statistical models used in the analysis of biomedical studies. The course will further serve as a fundamental building block for students to understand the importance of biostatistics and its synergistic place in the biomedical sciences. Information on opportunities such as scholarships, training grant programs and assistantships in Biostatistics and Public Health will be presented to scholars. Scholars will be encouraged to apply to continue their graduate studies in biostatistics, statistics and/or data sciences and contribute toward the remedial of the current nationwide shortage of biostatisticians.
+
+One week into the program, scholars will be matched with a Biostatistics faculty member for their selected research project. The projects are designed to provide the opportunity to engage in medical science research through biostatistics. After a supervised research, trainees will present their accomplished projects to faculty and students at our concluding symposium.
+
+**Eligibility**
+
+* Current undergraduate students and recent graduates majoring in mathematics, science or other quantitatively oriented areas of study are eligible. 
+* Applicants must be American citizens or permanent residents of the United States.
+
+***
+
+### [Mathematical Biosciences Institute (MBI) Undergraduate Summer Research Program](https://mbi.osu.edu/events/2020-summer-reu-program) 
+### THE Ohio State University (Columbus, OH)
+### Arizona State University (Tempe, AZ)
+### Howard University (Washington, DC)
+### Indiana University-Purdue University (Indianapolis, IN)
+### University of Notre Dame (Notre Dame, IN)
+### University of Pittsburgh (Pittsburgh, PA)
+### Virginia Polytechnic Institute and Virginia State University (Blacksburg, VA)
+
+#### TBD
+
+The Mathematical Biosciences Institute (MBI) is hosting a multi-institution REU program in the mathematical biosciences, facilitated by the Mathematical Biosciences Institute (MBI) located on the campus of The Ohio State University. The objectives of the program are: 
+
+(1) to introduce a diverse cohort of undergraduate students to the mathematical biosciences, broadly interpreted to include areas such as biostatistics, bioinformatics, and computational biology, in addition to biologically-inspired mathematical modeling; 
+
+(2) to encourage students to pursue graduate study in the mathematical biosciences; and 
+
+(3) to increase the number of students who enter the workforce with training in this field.
+
+REU participants work on projects in areas such as molecular evolution, neuronal oscillatory patterning, cancer genetics, epidemics and vaccination strategies, and animal movement. Participants work individually or in pairs under the guidance of expert mentors to make specific research contributions in these areas, often leading to a peer-reviewed publication and conference presentations. The REU program incorporates various professional and research-skills development activities throughout the summer to help ensure the participants’ success in completing their summer project and to prepare them for graduate study or entering the workforce.
+
+
+*** 
+# Not currently active 
+
+### [Summer Research - Early Identification Program (SR-EIP)](http://www.theleadershipalliance.org/programs/summer-research)
+#### February 1
+SR-EIP offers closely mentored research experiences in the life and physical sciences, social and behavioral sciences, and the humanities at 20 research institutions across the country. SR-EIP participants:
+
+* Spend 8-10 weeks at a Leadership Alliance institution
+* Receive a stipend, and travel and housing expenses from the research institution
+* Work under the guidance of a faculty or research mentor
+* Gain theoretical knowledge and practical training in academic research and scientific experimentation
+* Make oral or poster presentations at the Leadership Alliance National Symposium
+* Gain access to ongoing resources, mentoring and professional networks to support their chosen career path
+
+With one application, apply for a research experience at three summer research sites. Visit each institution's website for specific information on opportunities and program requirements
+
+Participating research sites:
+
+ Brown University<br>Columbia University<br>Cornell University<br>Dartmouth College<br>Harvard University<br>Johns Hopkins University<br>Montana State University | NYU<br>Princeton University<br>Stanford University<br>Tufts University<br>University of Chicago<br>University of Colorado Boulder<br>University of Maryland | University of Miami<br>University of Pennsylvania<br>University of Virginia<br>Vanderbilt University<br>Washington University<br>Weill Cornell<br>Yale University 
+
+**Eligibility**
+
+* Be currently enrolled full-time in an accredited public or private college or university in the United States or its territories, as recognized by the U.S. Department of Education.
+* Be in good academic standing with a GPA of 3.0 or better.
+* Demonstrate a committed interest to pursue graduate study toward a PhD or MD-PhD.
+* Have completed at least two semesters and have at least one semester remaining of their undergraduate education by the start of the summer program.
+* Be a documented U.S. citizen or non-citizen national, or permanent resident in possession of an alien registration receipt card (I-551) or other legal document of such status at the time of application. International citizens studying in the United States with an F-1 Visa are not eligible for the SR-EIP. Individuals seeking asylum or refugees are not eligible.
+
+### [Williams College: Mathematics and Statistics (SMALL) REU](https://math.williams.edu/small/) (Williamstown, MA)
+
+#### First or second Wednesday in February
+
+The SMALL Undergraduate Research Project is a ten-week summer program (9  weeks at Williams and 1 week at home) in which undergraduates investigate open research problems in mathematics and statistics.  One of the largest programs of its kind in the country, SMALL is supported in part by a National Science Foundation grant for Research Experiences for Undergraduates and by the Bronfman Science Center of Williams College. Around 500 students have participated in the project since its inception in 1988. Students work in small groups directed by individual faculty members.  Many participants have published papers and presented talks at research conferences based on work done in SMALL.  Some have gone on to complete PhDs in Mathematics and related fields.
+
+During off hours, students enjoy the many attractions of summer in the Berkshires:  hiking, biking, plays, concerts, etc. Weekly lunches, teas, and casual sporting events bring SMALL students together with faculty and other students spending the summer doing research at Williams College. Participating students receive a stipend of about $4000. Several board plans are available at reasonable rates, with housing included for free. There are funds to help with travel to/from SMALL, as well as to support students to go to conferences to present their work. Students are required to live on campus to participate in the SMALL program.  Having students live together on campus allows for the mathematical interaction to expand beyond the boundaries of the workday.
+
+**Eligibility**
+ 
+* US Citizen or Permanent Resident or have a visa to work in the U.S. A student F-1 visa should be sufficient, but you might need to do additional paperwork. Just note on your application what visa you have.
+* Undergraduate student at the time of the internship (ineligible once you have graduated)

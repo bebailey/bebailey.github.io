@@ -1,0 +1,46 @@
+name: "Brittney E. Bailey"
+output_dir: "docs"
+output: 
+  html_document:
+    theme: journal
+    highlight: kate
+    toc: yes
+    toc_float: yes
+    css: style.css
+navbar:
+  title: "Brittney E. Bailey"
+  right:
+    # - href: index.html
+    #   icon: fa-home
+    - text: "About me"
+      href: index.html
+      menu:
+        - text: "Research"
+          href: research.html
+        - text: "Teaching"
+          menu: 
+            - text: "STAT 231: Data Science"
+              href: https://acstat231-f22.github.io/home/index.html
+        - text: ---              
+        - text: "CV"
+          href: cv/brittney-e-bailey_cv.pdf
+        - text: "GitHub"
+          href: https://github.com/bebailey
+    - text: "Resources for Students"
+      # icon: fa-toolbox
+      menu:
+        - text: "Undergraduate internship opportunities"
+          href: https://profbailey.github.io/internships/
+        - text: "Conferences"
+          href: conferences.html
+        - text: "Archived internship opportunities (2019-2020)"
+          href: internship-archive.html
+        - text: ---
+        - text: "Amherst College Students"
+        - text: "Learn about the STEM Incubator Program"
+          href: https://www.amherst.edu/about/science_at_amherst/stem-incubator
+        - text: "Request a recommendation letter"
+          href: rec-letters.html
+    - text: "Contact"
+      # icon: fa-calendar
+      href: contact.html          

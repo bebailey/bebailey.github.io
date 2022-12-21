@@ -1,0 +1,1923 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Internship archive</title>
+
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Brittney E. Bailey</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    About me
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="research.html">Research</a>
+    </li>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Teaching</a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="https://acstat231-f22.github.io/home/index.html">STAT 231: Data Science</a>
+        </li>
+      </ul>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="cv/brittney-e-bailey_cv.pdf">CV</a>
+    </li>
+    <li>
+      <a href="https://github.com/bebailey">GitHub</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Resources for Students
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://profbailey.github.io/internships/">Undergraduate internship opportunities</a>
+    </li>
+    <li>
+      <a href="conferences.html">Conferences</a>
+    </li>
+    <li>
+      <a href="internship-archive.html">Archived internship opportunities (2019-2020)</a>
+    </li>
+    <li class="divider"></li>
+    <li class="dropdown-header">Amherst College Students</li>
+    <li>
+      <a href="https://www.amherst.edu/about/science_at_amherst/stem-incubator">Learn about the STEM Incubator Program</a>
+    </li>
+    <li>
+      <a href="rec-letters.html">Request a recommendation letter</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="contact.html">Contact</a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Internship archive</h1>
+
+</div>
+
+
+<p>The following is an archived list of internship opportunities
+compiled in the 2019-2020 academic year. Many of the opportunities may
+still be offered with similar deadlines.</p>
+<p>For a more comprehensive list of summer opportunities, check out some
+of the following:</p>
+<ul>
+<li><a
+href="https://www.pathwaystoscience.org/programs.aspx?u=Undergrads_Undergraduate+Students&amp;sm=&amp;sd=&amp;sy=&amp;d=MAT-Stats_Statistics&amp;dd=SummerResearch_Summer+Research+Opportunity&amp;submit=y&amp;dhub=SummerResearch_Summer+Research+Opportunity">Pathways
+to Science list of summer programs in statistics</a></li>
+<li><a
+href="https://www.swarthmore.edu/mathematics-statistics/summer-research-mathematics-statistics">Swarthmore’s
+List</a></li>
+<li><a
+href="https://statistics.berkeley.edu/programs/undergrad/resources">Berkeley’s
+List</a></li>
+<li><a
+href="https://stattrak.amstat.org/2019/12/01/2020-internship-listings/">ASA
+2020 Statistics Internship List</a></li>
+<li><a
+href="https://www.nhlbi.nih.gov/grants-and-training/summer-institute-biostatistics">Summer
+Institutes in Biostatistics (SIBS)</a></li>
+</ul>
+<hr />
+<div id="internship-archive" class="section level1">
+<h1>Internship archive</h1>
+<div
+id="the-institute-for-defense-analyses-alexandria-virginia-and-washington-dc"
+class="section level3">
+<h3><a
+href="https://chu.tbe.taleo.net/chu01/ats/careers/v2/viewRequisition?org=INSTITUTEDA&amp;cws=39&amp;rid=1459">The
+Institute for Defense Analyses</a> (Alexandria, Virginia, and
+Washington, DC)</h3>
+<div id="january-4-2020" class="section level4">
+<h4>January 4, 2020</h4>
+<p>The Institute for Defense Analyses’ (IDA) Summer Associate Program
+provides students with a unique opportunity to use their quantitative
+and analytic skills to work on challenging real-world national security
+issues. Positions are available with a variety of foci. Projects from
+past years have included functional data analysis, Bayesian approaches
+to reliability estimation, and statistics in science policy.</p>
+<p>IDA is a not-for-profit corporation that operates federally funded
+research and development centers (FFRDCs). Two of these are accepting
+summer associates.</p>
+<p>Staff at the IDA Systems and Analyses Center (SAC) provide objective
+analyses of national security issues, particularly those requiring
+scientific and technical expertise, and conduct related research on
+other national challenges. SAC, located in Alexandria, Virginia, is
+comprised of the following eight research divisions:</p>
+<p>Cost Analysis and Research Information Technology and Systems
+Intelligence Analyses Joint Advanced Warfighting Operational Evaluation
+System Evaluation Science and Technology Strategy, Forces, and Resources
+Staff at the IDA Science and Technology Policy Institute (STPI), located
+in Washington, DC, assist the White House Office of Science and
+Technology Policy and other executive branch agencies in formulating
+federal science and technology policy by providing high-quality,
+objective, analytical support to inform policymakers.</p>
+<p>Each year, IDA hires paid student associates at its Virginia and
+Washington, DC, facilities to work a minimum of 10 weeks during the
+summer months. Attendance at the nine-week core period between June 8,
+2020, and August 7, 2020, is required. An additional week either before
+or after the core period is required for a complete 10-week internship.
+In some cases, opportunities exist for associates to work a few weeks
+longer than the 10-week minimum.</p>
+<p>The wage range is dependent on the field of study and years of
+education completed. For students living outside the area, IDA pays for
+one instance of round-trip travel. Associates are responsible for living
+expenses during the summer.</p>
+<p><strong>Eligibility</strong></p>
+<ul>
+<li>U.S. Citizenship is required</li>
+<li>Ability to obtain and maintain a security clearance is required</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="mayo-clinic" class="section level3">
+<h3>Mayo Clinic</h3>
+<div id="january-15" class="section level4">
+<h4>January 15</h4>
+<p>The Mayo Clinic Division of Biomedical Statistics and Informatics has
+summer internship opportunities for undergraduate students who have
+completed their junior year and graduate students at all levels.
+Internships of 6–9 months may also be offered.</p>
+<p>Interns will work with statisticians, bioinformaticists, and clinical
+investigators on research projects in areas such as clinical trials,
+statistical genetics, and bioinformatics. Experience with SAS and/or R
+preferred. Whether an individual applicant will be offered a position
+will depend on their qualifications, our need and available funding, and
+the number of applicants.</p>
+<p>To apply, submit an unofficial transcript, résumé, and cover letter.
+Search keyword “Biostats” (statistical internship) or “Intern-IS”
+(informatics internship) and our current openings will be available.</p>
+<p>For more information, review our professional opportunities.</p>
+<p>Contact: <a href="mailto:Harris.Bud@mayo.edu">Bud Harris</a>,
+Department of Human Resources, Mayo Clinic, 200 First St. SW, Rochester,
+MN 55905; (480) 342-3493; (507) 284-1445 (fax).</p>
+<hr />
+</div>
+</div>
+<div
+id="memorial-sloan-kettering-quantitative-sciences-undergraduate-research-experience-qsuremanhattan-ny"
+class="section level3">
+<h3><a
+href="https://www.mskcc.org/departments/epidemiology-biostatistics/quantitative-sciences-summer-undergraduate-research-experience-qsure">Memorial
+Sloan Kettering: Quantitative Sciences Undergraduate Research Experience
+(QSURE)</a>(Manhattan, NY)</h3>
+<div id="january-17" class="section level4">
+<h4>January 17</h4>
+<p>The QSURE program is an NCI funded internship program, designed to
+provide a hands-on research experience to undergraduates with an
+aptitude for and interest in quantitative sciences in cancer. Students
+will participate in an individual research project and receive exposure
+to methods in biostatistics, epidemiology and health outcomes research.
+Through the program, students will advance their quantitative skills and
+knowledge, as well as their understanding of options for graduate study
+and careers in these areas. Student research projects will be
+individualized and will address topics such as factors that improve
+cancer survival, building models to predict individuals at high risk of
+cancer, cancer risk factors and prevention, computational biology/cancer
+genetics and genomics, quality and cost of cancer care,
+treatment-related side effects in cancer survivors, and disparities in
+cancer care and outcomes.</p>
+<p>Competitive applicants must have a keen interest in cancer and
+population health, demonstrated aptitude in data analysis, and excellent
+oral and written communication skills. The program provides a modest
+stipend for the 10-week summer internship at the Department of
+Epidemiology and Biostatistics, located in midtown Manhattan. Students
+are responsible for their own housing, but QSURE will provide a nominal
+reimbursement for housing expenses.</p>
+<p><strong>Eligibility</strong></p>
+<ul>
+<li>Completed at least one academic year of college,</li>
+<li>Completed one college level statistics course (AP statistics doesn’t
+count)</li>
+<li>Enrolled as full-time undergraduate student.</li>
+<li>Authorized to work in the US.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div
+id="american-political-science-association-ralph-bunche-summer-institute-durham-nc"
+class="section level3">
+<h3><a href="https://www.apsanet.org/rbsi">American Political Science
+Association: Ralph Bunche Summer Institute</a> (Durham, NC)</h3>
+<div id="january-17-1" class="section level4">
+<h4>January 17</h4>
+<p>Named in honor of the 1950 Nobel Peace Prize winner and former APSA
+President, Ralph J. Bunche, the RBSI encourages students to pursue
+academic careers in political science by:</p>
+<ul>
+<li>enhancing writing, research, and analytical skills to increase
+competitiveness in the application and financial aid process for
+graduate school;</li>
+<li>developing statistical skills for data analysis used in political
+science;</li>
+<li>exposing participants to the significant questions in the discipline
+and profession of political science; *introducing participants to
+leading political scientists;</li>
+<li>educating participants about political science career opportunities
+and encouraging their application to doctoral programs in political
+science.</li>
+</ul>
+<p>RBSI is an annual, intensive five-week program held at Duke
+University. It is designed to introduce to the world of doctoral study
+in political science those undergraduate students from under-represented
+racial and ethnic groups or those interested in broadening participation
+in political science and pursuing scholarship on issues affecting
+underrepresented groups or issues of tribal sovereignty and governance.
+Participants in the RBSI are drawn from a competitive national applicant
+pool.</p>
+<p><strong>Eligibility</strong></p>
+<ul>
+<li>Member of one of the following underrepresented racial or ethnic
+minority groups: African Americans, Asian Pacific Americans, Latinos/as,
+American Indians or Alaska Natives, and Native Hawaiians, or an
+individual who is interested in broadening participation in political
+science by students from underrepresented minority populations and
+pursuing scholarship on issues affecting underrepresented groups or
+issues of tribal sovereignty and governance.</li>
+<li>College/university juniors.</li>
+<li>Demonstrate an interest in teaching and potential for research in
+political science.</li>
+<li>US citizen, US national, US permanent resident (holder of a
+Permanent Resident Card), or an individual granted deferred action
+status under the Deferred Action for Childhood Arrivals Program (DACA)
+at time of application.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div
+id="carnegie-mellon-university-data-science-for-social-good-pittsburgh-pa"
+class="section level3">
+<h3><a href="http://www.dssgfellowship.org">Carnegie Mellon University:
+Data Science for Social Good</a> (Pittsburgh, PA)</h3>
+<div id="january-31" class="section level4">
+<h4>January 31</h4>
+<p>The Data Science for Social Good Fellowship is a full-time summer
+program to train aspiring data scientists to work on machine learning,
+data science, and AI projects with social impact in a fair and equitable
+manner. Working closely with governments and nonprofits, fellows take on
+real-world problems in education, health, criminal justice,
+sustainability, public safety, workforce development, human services,
+transportation, economic development, international development, and
+more.</p>
+<p>For three months they learn, hone, and apply their data science,
+analytical, and coding skills, collaborate in a fast-paced atmosphere,
+and learn from full-time mentors coming from industry and academia.</p>
+<p><strong>Eligibility</strong></p>
+<p>Although we’d love to have people at all levels involved, we prefer
+you to be a graduate student or at least a senior in college to get the
+most out of this program. This is because we have learned over the years
+that fellows with prior skills are able to both get the most out of
+their experience, as well as contribute the most. That said, if you feel
+like you may not fit the typical criteria of a Fellow, but have both the
+computational skills and passion to excel, we’d still love to see your
+application.</p>
+</div>
+</div>
+<div
+id="carnegie-mellon-university-data-science-for-social-good-pittsburgh-pa-1"
+class="section level3">
+<h3><a href="http://www.dssgfellowship.org">Carnegie Mellon University:
+Data Science for Social Good</a> (Pittsburgh, PA)</h3>
+<div id="january-31-1" class="section level4">
+<h4>January 31</h4>
+<p>The Data Science for Social Good Fellowship is a full-time summer
+program to train aspiring data scientists to work on machine learning,
+data science, and AI projects with social impact in a fair and equitable
+manner. Working closely with governments and nonprofits, fellows take on
+real-world problems in education, health, criminal justice,
+sustainability, public safety, workforce development, human services,
+transportation, economic development, international development, and
+more.</p>
+<p>For three months they learn, hone, and apply their data science,
+analytical, and coding skills, collaborate in a fast-paced atmosphere,
+and learn from full-time mentors coming from industry and academia.</p>
+<p><strong>Eligibility</strong></p>
+<p>Although we’d love to have people at all levels involved, we prefer
+you to be a graduate student or at least a senior in college to get the
+most out of this program. This is because we have learned over the years
+that fellows with prior skills are able to both get the most out of
+their experience, as well as contribute the most. That said, if you feel
+like you may not fit the typical criteria of a Fellow, but have both the
+computational skills and passion to excel, we’d still love to see your
+application.</p>
+<hr />
+</div>
+</div>
+<div
+id="mental-health-in-the-country-of-ukraine-2-weeks-in-kiev-ukraine-8-weeks-in-sioux-center-ia"
+class="section level3">
+<h3><a href="https://www.dordt.edu/academics/ukraine-reu">Mental Health
+in the Country of Ukraine</a> (2 weeks in Kiev, Ukraine; 8 weeks in
+Sioux Center, IA)</h3>
+<div id="january-31-2" class="section level4">
+<h4>January 31</h4>
+<p>Undergraduate students with an interest in applying complex survey
+sampling techniques to the analysis of population-based
+psychological/mental health data from Ukraine are encouraged to apply to
+this international research program. Successful applicants will work
+with a team of other undergraduate students on interdisciplinary
+research projects investigating a variety of research questions about
+this developing country, leading to publication in peer-reviewed
+journals and presentations at regional and national conferences.</p>
+<p>Participants will receive a $5,000 stipend for the 10-week program,
+which runs from May 18 to July 24, 2020. The first two weeks will be
+spent in Ukraine (travel, lodging, and related expenses are paid for by
+the program), working with research collaborators at the Kiev
+International Institute of Sociology. The remaining eight weeks will be
+spent in Sioux Center, Iowa.</p>
+<p>Some projects are appropriate for students with more statistical
+background and others for students with less, so all levels of students
+are encouraged to apply. Free apartment-style housing and funds for
+travel to/from Sioux Center, Iowa, will be provided. Applicants must be
+US citizens.</p>
+<p><strong>Eligibility</strong></p>
+<ul>
+<li>Students who have not received a 4-year undergraduate degree by
+Summer 2020 are eligible to apply for this REU</li>
+<li>Students who are a US Citizen or a Permanent Resident of the US are
+eligible to apply for this REU – international students are not eligible
+for this REU</li>
+<li>Students from institutions other than Dordt University are eligible
+– and encouraged – to apply for this REU</li>
+</ul>
+<hr />
+</div>
+</div>
+<div
+id="social-and-decision-analytics-division-biocomplexity-institute-and-initiative-university-of-virginia-arlington-va"
+class="section level3">
+<h3>Social and Decision Analytics Division, Biocomplexity Institute and
+Initiative, University of Virginia (Arlington, VA)</h3>
+<div id="january-31-3" class="section level4">
+<h4>January 31</h4>
+<p>The Social and Decision Analytics Division (SDAD) is seeking
+applications for graduate fellows and undergraduate interns for its Data
+Science for Public Good (DSPG) program. The DSPG program will run for 11
+weeks (May 26 – August 7) for graduate fellows and 10 weeks (June 1 –
+August 7) for undergraduate interns. Fellows and interns will work in
+teams collaborating with postdoctoral associates and research faculty
+from SDAD and project stakeholders. The research teams will combine
+disciplines including statistics, data science, and the social and
+behavioral sciences to address complex problems proposed by local,
+state, and federal agencies.</p>
+<p>Visit the DSPG website for more information about the program.</p>
+<p>To apply, <a href="https://uva.wd1.myworkdayjobs.com/UVAJobs">submit
+an application online</a> and search for requisition number R0010930.
+Attach a current CV/résumé, transcript, and cover letter with your
+relevant experience and interest in the position. Please have three
+confidential letters of reference sent to <a
+href="mailto:dspg2020@virginia.edu">dspg2020@virginia.edu</a>.</p>
+<p>Contact: <a href="mailto:gkorkmaz@virginia.edu">Gizem Korkmaz</a>,
+Social and Decision Analytics Division, Biocomplexity Institute and
+Initiative – University of Virginia, 1100 Wilson Blvd., Office #2910,
+Arlington, VA 22209; (434) 243-7334</p>
+<hr />
+</div>
+</div>
+<div
+id="dordt-university-undergraduate-research-program-in-statistical-genetics"
+class="section level3">
+<h3><a
+href="https://www.dordt.edu/academics/research-and-scholarship/undergraduate-summer-research/statistical-genetics-and-biostatistics">Dordt
+University: Undergraduate Research Program in Statistical
+Genetics</a></h3>
+<p>(Sioux Center, IA) #### January 31</p>
+<p>Undergraduate students with an interest in statistical genetics and
+biostatistics are encouraged to apply to participate in the 14th
+consecutive year of our nationally recognized undergraduate research
+program in statistical genetics. Successful applicants will work with a
+team of other undergraduate students on cutting-edge problems in
+statistical genetics leading to publication in peer-reviewed journals
+and presentations at regional and national conferences.</p>
+<p>Participants will receive a $4,000 stipend for the eight-week
+program, which runs from June 1 to July 24, 2020. Free apartment-style
+housing and funds for travel to/from Sioux Center, Iowa, will be
+provided.</p>
+<p>Applicants must be US citizens.</p>
+<p>Some hiring may take place prior to the deadline, so applicants are
+encouraged to submit their application materials as soon as
+possible.</p>
+<p>An application and additional information can be found on the
+website.</p>
+<hr />
+</div>
+<div
+id="mount-sinai-center-for-bioinformatics-summer-research-training-program-in-biomedical-big-data-science-new-york-ny"
+class="section level3">
+<h3><a
+href="http://labs.icahn.mssm.edu/maayanlab/summer-research-program/">Mount
+Sinai Center for Bioinformatics: Summer Research Training Program in
+Biomedical Big Data Science</a> (New York, NY)</h3>
+<div id="february-1" class="section level4">
+<h4>February 1</h4>
+<p>The Mount Sinai Center for Bioinformatics and Ma’ayan Laboratory’s
+Summer Research Training Program in Biomedical Big Data Science is a
+research intensive ten-week training program for undergraduate and
+graduate students interested in participating in cutting edge research
+projects aimed at solving data-intensive biomedical problems. Summer
+fellows training in the Ma’ayan Laboratory conduct faculty-mentored
+independent research projects in the following areas:</p>
+<ul>
+<li>data harmonization</li>
+<li>machine learning</li>
+<li>cloud computing</li>
+<li>dynamic data visualization.</li>
+</ul>
+<p><strong>Eligibility</strong></p>
+<ul>
+<li>US citizens or permanent residents</li>
+<li>An undergraduate or master’s student in good academic standing</li>
+<li>Majoring in Computer Science, Informatics, Mathematics, Statistics,
+Physics, Engineering, Chemistry/Chemical Sciences or Biological Sciences
+and have an interest in Biomedical Big Data Science.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="john-deere-moline-il" class="section level3">
+<h3>John Deere (Moline, IL)</h3>
+<div id="february-1-1" class="section level4">
+<h4>February 1</h4>
+<p>The data and analytics intern program is for students who have
+completed at least one year of their bachelor’s or master’s program and
+are looking for a 2–3-month summer internship. Our analytic internship
+will provide an opportunity for you to apply your data science skills to
+business problems within a specific department and functional area.
+Opportunities exist across varied functional areas such as financial
+services, information technology, precision agriculture, customer and
+product support, supply management, sales and marketing, order
+fulfillment, and engineering.</p>
+<p>Responsibilities:</p>
+<ul>
+<li>Lead and/or support key analytics projects</li>
+<li>Integrate large and diverse data sets</li>
+<li>Learn and apply appropriate data science techniques to solve
+business problems</li>
+<li>Collaborate with data and analytics colleagues and key business
+stakeholders</li>
+</ul>
+<p><strong>Eligibility</strong></p>
+<p>Contact <a href="mailto:jdjobs@johndeere.com">Megan Osterberg</a></p>
+<hr />
+</div>
+</div>
+<div
+id="university-of-utah-genomics-summer-research-for-minorities-internship-salt-lake-city-ut"
+class="section level3">
+<h3><a
+href="https://medicine.utah.edu/pediatrics//research/education/gsrm.php">University
+of Utah: Genomics Summer Research for Minorities Internship</a> (Salt
+Lake City, UT)</h3>
+<div id="february-3" class="section level4">
+<h4>February 3</h4>
+<p>GSRM internship provides a ten-week summer research program for
+undergraduate students interested in genomics research, personalized
+medicine and biosciences. The GSRM is funded by an NIH Research
+Education Program (R25) and supported by the University of Utah
+Department of Pediatrics. The paid internship provides students with
+placement in world-class genomics research groups, tailored mentorship,
+professional development workshops and access to state-of-the-art
+equipment and technology. Interns have the opportunity to interact with
+a thriving community of scientists, physicians and mentors that
+recognize the need to promote diversity in the Science, Technology,
+Engineering and Math (STEM) workforce.</p>
+<p>We offer a generous stipend (up to $5500), travel support for out of
+state students and free housing on the university campus. Students will
+attend a National conference and can request physician shadowing
+opportunities.</p>
+<p><strong>Eligibility</strong></p>
+<ul>
+<li>U.S. citizen or permanent resident and a member of an
+underrepresented minority group (as defined by the National Institutes
+of Health). We particularly encourage the participation of women,
+individuals from underrepresented and disadvantaged minority groups, and
+individuals with disabilities.</li>
+<li>Completed their sophomore year before joining our GSRM program.</li>
+<li>Enrolled in a four-year college for Fall 2020, with a graduation
+date of December 2020 or later.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="bioxfel" class="section level3">
+<h3><a
+href="https://www.bioxfel.org/education/undergraduate-internships">BioxFEL</a></h3>
+</div>
+<div id="university-at-buffalo-buffalo-ny" class="section level3">
+<h3>University at Buffalo (Buffalo, NY)</h3>
+</div>
+<div id="hauptman-woodward-medical-research-institute-buffalo-ny"
+class="section level3">
+<h3>Hauptman-Woodward Medical Research Institute (Buffalo, NY)</h3>
+</div>
+<div id="arizona-state-university-tempe-az" class="section level3">
+<h3>Arizona State University (Tempe, AZ)</h3>
+</div>
+<div id="university-of-wisconsin-milwaukee-wi" class="section level3">
+<h3>University of Wisconsin (Milwaukee, WI)</h3>
+</div>
+<div id="rice-university-houston-tx" class="section level3">
+<h3>Rice University (Houston, TX)</h3>
+</div>
+<div id="slac-national-accelerator-laboratory-san-mateo-county-ca"
+class="section level3">
+<h3>SLAC National Accelerator Laboratory (San Mateo County, CA)</h3>
+<div id="february-7" class="section level4">
+<h4>February 7</h4>
+<p>BioXFEL is a National Science Foundation Science and Technology
+Center (STC) that focuses on promoting and advancing the study of
+Biological molecules using X-ray Free Electron Lasers (XFELs). A summer
+internship is the best way to get started in this new and exciting
+field. This is a highly competitive program where students will be given
+hands-on training in XFEL-related laboratory techniques. The internship
+also includes a scientific communications workshop, educational seminars
+and social activities. At the end of the 10-week program, students
+present their research results to the group. Internships run from the
+last week of May through the first week of August. Interns that require
+on-site housing will check into their dorms on Memorial Day, May 26th
+and check out on Saturday, August 8th.</p>
+<p><strong>Eligibility</strong></p>
+<ul>
+<li>US citizens or US Nationals</li>
+<li>Interested in pursuing a career in research</li>
+<li>Background in physics, chemistry, biochemistry, mathematics,
+computer science or any related fields</li>
+</ul>
+<hr />
+</div>
+</div>
+<div
+id="new-srop-summer-research-opportunities-program-various-locations"
+class="section level3">
+<h3>NEW!!! <a
+href="https://www.btaa.org/resources-for/students/srop/introduction">SROP:
+Summer Research Opportunities Program</a> (Various Locations)</h3>
+<div id="february-10" class="section level4">
+<h4>February 10</h4>
+<p>The Summer Research Opportunities Program (SROP) is a gateway to
+graduate education at Big Ten Academic Alliance universities. The goal
+of the program is to increase the number of underrepresented students
+who pursue graduate study and research careers. SROP helps prepare
+undergraduates for graduate study through intensive research experiences
+with faculty mentors and enrichment activities.</p>
+<p>Each year SROP applications are accepted between November 1 and
+February 10. The Big Ten Academic Alliance universities SROP application
+allows you to apply to up to 10 widely-recognized summer research
+programs at participating Big Ten Academic Alliance universities
+institutions using a single application. One of the benefits of using
+the Big Ten Academic Alliance universities SROP application is that you
+only need to upload one transcript to a central location (the Big Ten
+Academic Alliance universities) and your faculty recommenders will only
+be required to submit one online letter of recommendation (TWO LETTERS
+required in total). Upon completion, your application will be viewable
+by faculty from ten top research universities.</p>
+<p>This program will entail:</p>
+<ul>
+<li>Weekly campus-based educational enrichment activities broaden your
+view of graduate education and research, along with strengthening your
+technical skills.</li>
+<li>Campus workshops inform you about graduate admission procedures,
+financial aid opportunities, test-taking skills, preparing a
+presentation, and expose you to a wide range of research fields.
+Informal social gatherings provide a relaxed setting for students and
+faculty to exchange ideas and share experiences.</li>
+<li>At the end of the summer, you present the results of your research
+project at a symposium or poster session held on your campus.</li>
+</ul>
+<p><strong>Eligibility</strong></p>
+<p>Students wishing to participate in SROP must meet all of the
+following criteria:</p>
+<ul>
+<li>Have a cumulative GPA of 3.0 or higher (4.0 scale)</li>
+<li>Be a citizen or a permanent resident of the U.S.</li>
+<li>Be enrolled in a degree-granting program at a college or university
+in the United States, Puerto Rico, or other U.S. territory</li>
+<li>Have completed at least two semesters of undergraduate education by
+the time of the summer experience</li>
+<li>Have at least one semester of undergraduate education remaining
+after completing the summer research experience</li>
+<li>Have a strong interest in pursuing a Ph.D.</li>
+<li>Willing to complete 40 hours of research each week</li>
+<li>Not work an additional job during the summer program</li>
+</ul>
+</div>
+</div>
+<div
+id="boston-university-summer-institute-for-research-education-in-biostatistics-sibs-boston-ma"
+class="section level3">
+<h3><a
+href="https://www.bu.edu/sph/about/departments/biostatistics/summer-institute-for-training-in-biostatistics/">Boston
+University: Summer Institute for Research Education in Biostatistics
+(SIBS)</a> (Boston, MA)</h3>
+<div id="february-10-1" class="section level4">
+<h4>February 10</h4>
+<p>If you are an undergraduate with an interest in mathematics,
+statistics, biology or health sciences and would like to learn how to
+apply methods to investigate important health issues, come join us for
+our highly successful Summer Institute for Training in Biostatistics
+program.</p>
+<p>Participants in the six-week program will:</p>
+<ul>
+<li>Learn the principles of applied biostatistics from recognized
+experts in the field;</li>
+<li>Interact daily with award-winning faculty who make learning
+biostatistics interesting, relevant, and fun.</li>
+<li>Meet practicing biostatisticians, epidemiologists and statistical
+geneticists and learn about their work in small group interactive
+settings;</li>
+<li>Gain hands-on experience working with actual data collected in
+internationally recognized studies that have been funded by the National
+Heart, Lung and Blood Institute;</li>
+<li>Learn about opportunities for graduate study and additional
+training;</li>
+<li>Explore an ever-growing field that is critically important in
+studies to improve the world we live in; and participate in a variety of
+unique Boston experiences (historical sites, cultural and sporting
+events), meet new people, and have lots of fun. while earning college
+credit</li>
+</ul>
+<p>Costs for housing, tuition, meals, and extra-curricular activities
+are covered by the program.</p>
+<p><strong>Eligibility</strong></p>
+<ul>
+<li>Current undergraduate students and recent graduates majoring in
+mathematics, science or other quantitatively oriented areas of study are
+eligible.</li>
+<li>Applicants must be American citizens or permanent residents of the
+United States.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="las-bestusc-los-angeles-ca" class="section level3">
+<h3><a
+href="https://preventivemedicine.usc.edu/education/summer-programs/lasbest/">LA’s
+BEST@USC</a> (Los Angeles, CA)</h3>
+<div id="february-10-2" class="section level4">
+<h4>February 10</h4>
+<p>Students will conduct summer research for six weeks from June 15,
+2020, through July 24, 2020, with training from public health leaders.
+All students will receive formal training in biostatistics and meet
+experts in epidemiology, molecular biology, cancer, and clinical
+research with opportunities to work on real data sets. The main focus
+will be on heart and lung diseases, but students will also have the
+opportunity of being introduced to a wide range of public health
+research topics including cancer, metabolic disorders, and genetics. At
+the end of the summer session, students will present their research
+findings to the Keck community. Students will receive 2.0 units of
+college credit, tuition, housing, meals and cost of transportation from
+their homes. All expenses will be covered by the program.</p>
+<p><strong>Eligibility</strong></p>
+<ul>
+<li>U.S. citizen or permanent resident</li>
+<li>Completed at least two years of undergraduate study</li>
+</ul>
+<hr />
+</div>
+</div>
+<div
+id="university-of-alabama-summer-institute-for-research-education-in-biostatistics-sibs-birmingham-al"
+class="section level3">
+<h3><a href="https://www.uab.edu/medicine/sibs/">University of Alabama:
+Summer Institute for Research Education in Biostatistics (SIBS)</a>
+(Birmingham, AL)</h3>
+<div id="february-14" class="section level4">
+<h4>February 14</h4>
+<p>The Summer in Biomedical Science (SIBS) Undergraduate Research
+Program will provide the opportunity for young people to be instructed
+in the techniques of modern biology while becoming integrated members of
+a vibrant clinical and scientific community.</p>
+<p>Fifteen students who will be sophomore or junior level college
+undergraduates in March 2020 will be accepted into an 8-week paid summer
+program (2020 dates: June 1, - July 24, 2020) to work with faculty
+members on mentored research projects. US Citizens or Permanent
+Residents are eligible to apply; International Students are not
+eligible.</p>
+<p>SIBS participants will receive a stipend of $3,200 for their
+participation in the program. Campus housing will be provided but travel
+expenses are not covered.</p>
+<p><strong>Eligibility</strong></p>
+<ul>
+<li>US citizens or permanent residents</li>
+<li>Sophomore or junior level standing. We accept applications from
+students who are true freshman, but have sophomore or junior level
+standing due to credits from high school AP or other coursework. We do
+not accept applications from seniors in college.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div
+id="university-of-wisconsin-summer-research-program-in-biomedical-data-science-madison-wi"
+class="section level3">
+<h3><a
+href="http://bmiweb.biostat.wisc.edu/content/summer-research">University
+of Wisconsin: Summer Research Program in Biomedical Data Science</a>
+(Madison, WI)</h3>
+<div id="february-15" class="section level4">
+<h4>February 15</h4>
+<p>The summer research program in Biomedical Data Science (BDS) gives
+undergraduate students the opportunity to explore careers in
+biostatistics, bioinformatics, and biomedical big data by working
+closely with faculty and staff mentors. Such an experience is ideal for
+students with strength in mathematics and computer sciences who enjoy
+working with computers and numbers and wish to apply their skills to
+solving real world problems in biomedical research. There are
+approximately 50 faculty members actively involved in a wide variety of
+research activities, including brain image analysis, clinical trials,
+electronic health records, epidemiology, genomics, experimental design
+and analysis of laboratory studies.</p>
+<p>The BDS program is designed to be accessible to undergraduates who
+might not otherwise have this kind of research opportunity. There is no
+cost for program participation. In addition, a stipend is provided to
+each student, and housing and travel costs are covered. Underrepresented
+minority, low-income, and first-generation college students are strongly
+encouraged to apply, as are students from smaller institutions without
+broad research facilities.</p>
+<p><strong>Eligibility</strong></p>
+<ul>
+<li>U.S. citizens or permanent residents enrolled in an accredited
+college/university, majoring in either a quantitative science or in
+biology, and have successfully completed at least one year of
+calculus.</li>
+<li>African American, Hispanic, Native American, Southeast Asian, Native
+Alaskan or Native Pacific Islander, OR students (of any ethnic
+background) who are McNair scholars, OR students who attend small
+liberal arts institutions without broad research facilities are strongly
+encouraged to apply.</li>
+<li>Students with disabilities are welcome. Accomodations are available!
+For more information please visit www.mcburney.wisc.edu</li>
+<li>Preference will be given to students who will have completed their
+junior year and who have a cumulative grade point average of at least
+3.0.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div
+id="thomas-jefferson-university-division-of-biostatistics-philadelpha-pa"
+class="section level3">
+<h3><a
+href="https://jeffline.jefferson.edu/education/programs/biostatistics_si/">Thomas
+Jefferson University Division of Biostatistics</a> (Philadelpha,
+PA)</h3>
+<div id="february-15-1" class="section level4">
+<h4>February 15</h4>
+<p>Jefferson’s division of biostatistics in the department of
+pharmacology and experimental therapeutics will sponsor up to three
+students as summer interns, who will do the following:</p>
+<ul>
+<li>Research statistical topics relevant to biomedical research</li>
+<li>Apply statistical thinking to biomedical research problems</li>
+<li>Analyze real-world biomedical data and interpret the results</li>
+<li>Develop statistical programming skills in SAS, R, and other
+languages</li>
+<li>Develop and practice communication of statistical methods and
+results through written and oral presentations</li>
+<li>Receive guidance and mentoring regarding their future studies and
+career trajectory</li>
+</ul>
+<p>The internship will run for 8–10 weeks from June to August. Interns
+will be paid a stipend, which will be dependent on academic level,
+experience, and work schedule.</p>
+<p>Applicants should have an interest in pursuing a career in
+(bio)statistics, data science, or another quantitative field with a
+focus on the biomedical sciences and may be current students or recent
+graduates.</p>
+<p>For undergraduate students (or those with an undergraduate degree),
+any degree program is acceptable, but applicants should have strong
+mathematical and analytical skills and at least one course in computer
+programming.</p>
+<p>Applications will be reviewed and requests for interviews will be
+sent on a rolling basis.</p>
+<p>Contact: <a href="mailto:Gloria.Elnitsky@jefferson.edu">Gloria
+Elnitsky</a>, (215) 955-9079.</p>
+<hr />
+</div>
+</div>
+<div id="shionogi-inc.-florham-park-nj" class="section level3">
+<h3>Shionogi, Inc. (Florham Park, NJ)</h3>
+<div id="february-15-2" class="section level4">
+<h4>February 15</h4>
+<p>The intern will work closely with experienced statistics project
+leaders and trial lead statisticians. The intent is to offer exposure
+across projects and therapeutic areas regarding the day-to-day job of an
+industry statistician to demonstrate the opportunities in statistics in
+the pharmaceutical industry. In return for this opportunity, the intern
+will be responsible for, but not limited to, the following:</p>
+<ul>
+<li>Data analysis and interpretation from clinical trials under the
+direction of the trial lead statistician and/or project lead
+statistician across phases 1 through 3</li>
+<li>Identifying and applying appropriate statistical techniques,
+methodologies, and software to actual clinical trial data</li>
+<li>Learning about ongoing projects</li>
+<li>Contributing to ongoing study design efforts</li>
+<li>Participating in statistical research projects and statistical lunch
+and learn discussions</li>
+<li>The successful candidate will be a self-starter who can find
+opportunities and accomplish beyond the planned internship. Shionogi,
+Inc. is open to working in concert with the candidate to maximize the
+experience.</li>
+</ul>
+<p><em>Qualifications</em></p>
+<ul>
+<li>Experience with software packages, including SAS. Experience with R
+is a plus, as is experience with SAS Viya.</li>
+<li>Good verbal and written communication skills.</li>
+<li>Current PhD candidate or master’s degree candidate. Will consider
+bachelor’s candidate who has been highly successful in undergraduate
+statistical curriculum and plans to pursue higher statistical candidate
+degrees.</li>
+</ul>
+<p>Our people are the foundation of our culture at Shionogi,
+Inc. Collaboration is central to who we are and how we work. We combine
+the spirit and nimbleness of an entrepreneurial culture with the
+resources of a global company. Shionogi, Inc. (SI) biometrics is a
+multi-function group as part of the SI clinical development department.
+SI biometrics is a strategic partner in generating data-driven evidence
+through our Statistics, Data Management, and Statistical Programming
+Group. SI Biometrics is part of a global biostatistics group that
+includes these functions, as well as data scientists.</p>
+<p>Shionogi, Inc. is an equal opportunity/affirmative action employer.
+It is the policy of Shionogi, Inc. to undertake affirmative action in
+compliance with all federal, state, and local requirements to recruit a
+diverse pool of applicants and ensure our employment practices are, in
+fact, nondiscriminatory.</p>
+<p>Contact: <a href="mailto:bruce.binkowitz@shionogi.com">Bruce
+Binkowitz</a>, 300 Campus Drive, Florham Park, NJ 07932; (973) 307
+3487.</p>
+<hr />
+</div>
+</div>
+<div id="ischool-inclusion-institute-i3-pittsburgh-pa"
+class="section level3">
+<h3><a
+href="http://www.i3-inclusion.org/summer-institutes/2020-institute/">iSchool
+Inclusion Institute (i3)</a> (Pittsburgh, PA)</h3>
+<div
+id="february-17-early-applications-will-receive-priority-consideration"
+class="section level4">
+<h4>February 17 (early applications will receive priority
+consideration)</h4>
+<p>The iSchool Inclusion Institute (i3) is an undergraduate research and
+leadership development program that prepares students from
+underrepresented populations for graduate study and careers in the
+information sciences. Only 25 students from across the country are
+selected each year to become i3 Scholars. Those students undertake a
+yearlong experience that includes two summer institutes hosted by the
+University of Pittsburgh School of Computing and Information and a
+research project spanning the year. i3 prepares students for the rigors
+of graduate study and serves as a pipeline for i3 Scholars into
+internationally recognized information schools—the iSchools. Most
+importantly, i3 empowers students to create change and make an impact on
+the people around them.</p>
+<p><strong>Eligibility</strong></p>
+<ul>
+<li>Undergraduate students enrolled in an accredited college, including
+community colleges, or university in the United States OR students who
+have recently graduated</li>
+<li>U.S. citizens, permanent residents, or DACA recipients</li>
+</ul>
+<hr />
+</div>
+</div>
+<div
+id="worcester-polytechnic-institute-research-experiences-for-undergraduates-in-industrial-mathematics-and-statistics-worcester-ma"
+class="section level3">
+<h3><a href="http://www.wpi.edu/+CIMSREU">Worcester Polytechnic
+Institute: Research Experiences for Undergraduates in Industrial
+Mathematics and Statistics</a> (Worcester, MA)</h3>
+<div id="feb-21" class="section level4">
+<h4>Feb 21</h4>
+<p>The REU Program in Industrial Mathematics and Statistics started at
+WPI in 1998 with funding from the National Science Foundation (NSF). It
+was the first mathematics REU program in the US that exclusively
+involves students in real-world projects sponsored by corporate
+partners.</p>
+<p>This nine week program offers outstanding undergraduate students the
+opportunity to work on mathematical and statistical problems in close
+collaboration with faculty and industrial sponsors.</p>
+<p>The program is designed to provide a glimpse of the ways that
+advanced mathematics is used in the real world to solve complex
+problems. The students work on problems which begin with a real-life
+problem generated by our industrial sponsors. They work closely with a
+company representative to define the problem and develop solutions of
+immediate value to the company. They are guided by a faculty advisor to
+maintain a clear focus on the mathematical issues at the core of the
+project.</p>
+<ul>
+<li>What is the role of a mathematician in business and industry?</li>
+<li>What is it like to work with technical experts on a problem that
+requires significant * mathematics but also must satisfy real-world
+constraints?</li>
+<li>What kind of mathematical and statistical tools are used to solve
+problems in business and industry?</li>
+</ul>
+<p>The REU program at WPI provides a unique experience that answers
+these questions, an experience that complements standard academic
+training.</p>
+<p><strong>Eligibility</strong></p>
+<ul>
+<li>US Citizens or Lawful Permanent Residents.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div
+id="new-carnegie-mellon-summer-undergraduate-research-experience-in-statistics-pittsburgh-pa"
+class="section level3">
+<h3><a href="https://http://summer.stat.cmu.edu">NEW! Carnegie Mellon:
+Summer Undergraduate Research Experience in Statistics</a> (Pittsburgh,
+PA)</h3>
+<div id="february-29" class="section level4">
+<h4>February 29</h4>
+<p>The Summer Undergraduate Research Experience in Statistics provides
+participants with hands-on experience working with real data, on real
+problems, in a stimulating, collaborative, and supportive
+environment.</p>
+<p>The Department of Statistics &amp; Data Science at Carnegie Mellon
+University is world-renowned for the quality and depth of its
+collaborations with disciplines ranging from astronomy to genetics to
+neuroscience to education to finance. Participants in this program will
+engage with the faculty and graduate students actively involved with
+these projects. Students will work in small groups, under the
+supervision of an advisor and with assistance from PhD students in the
+department.</p>
+<p>For 2020, the program theme is “Data Science in Sports Analytics”.
+Carnegie Mellon Statistics &amp; Data Science is very active in sports
+analytics at both the undergraduate and graduate level and collaborates
+with professional and academic analysts across several sports.
+Information about the annual Carnegie Mellon Sports Analytics Conference
+(and the upcoming summer program) can be found at <a
+href="http://www.stat.cmu.edu/cmsac"
+class="uri">http://www.stat.cmu.edu/cmsac</a>.</p>
+<p>The program will concentrate on statistics and data science
+methodology with applications in sports. Students do NOT need to have
+extensive knowledge about sports to participate. Students will have
+opportunities to learn from guest experts in the field and gain first
+hand experience in modern sports analytics.</p>
+<p>Participants will receive a stipend of $4000. This is provided to
+cover all travel and living expenses while participating in the
+program.</p>
+<p>Housing Support: Students will be provided with housing through
+CMU.</p>
+<p><strong>Eligibility</strong></p>
+<ul>
+<li>The program is open to any undergraduates who are based at U.S.
+institutions, entering their junior or senior year in Fall 2020.</li>
+<li>There are no specific course prerequisites, we only require an
+interest in learning about modern approaches to statistical inference in
+data-rich fields of application. Experience in sports analytics is not
+required.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div
+id="amherst-college-summer-undergraduate-research-fellowship-surf-amherst-ma"
+class="section level3">
+<h3><a
+href="https://www.amherst.edu/academiclife/support/funding/students/amherst-student-research-funding-opportunities/summer-research-opportunities-at-amherst/surf-program">Amherst
+College: Summer Undergraduate Research Fellowship (SURF)</a> (Amherst,
+MA)</h3>
+<div id="february" class="section level4">
+<h4>February</h4>
+<p>The 2020 SURF Program is an 8 to 9 week program, June 8rd- August
+7th. Most projects are 8 weeks long, but some exceptions will be made
+for longer projects as coordinated with the SURF mentor.</p>
+<p><strong>Eligibility</strong></p>
+<p>Applicants must be students of Amherst College.</p>
+<hr />
+</div>
+</div>
+<div
+id="columbia-university-biostatistics-epidemiology-summer-training-best-new-york-city-ny"
+class="section level3">
+<h3><a
+href="https://www.mailman.columbia.edu/research/biostatistics-epidemiology-summer-training">Columbia
+University: Biostatistics Epidemiology Summer Training (BEST)</a> (New
+York City, NY)</h3>
+<div id="march-1" class="section level4">
+<h4>March 1</h4>
+<p>The Biostatistics Epidemiology Summer Training Diversity Program
+(BEST) was established to expand and diversify the behavioral and
+biomedical sciences’ workforce by introducing undergraduates from
+underrepresented populations to biostatistics and cardiovascular and
+pulmonary disease research. Students representing racial and ethnic
+minority groups, disadvantaged backgrounds, and students with
+disabilities join the Department of Biostatistics at Columbia
+University’s Mailman School of Public Health’s for eight weeks of
+research, training, academic and career planning, and social activities
+around New York City.</p>
+<p>Following the success of the seven-student, 4-week pilot in 2008,
+BEST received a five-year grant from the National Heart, Lung and Blood
+Institute to expand the program to host 10-15 students for eight weeks
+each summer. All participants will receive a $2800 stipend as well as
+some funds to offset costs of food and travel to and from New York City.
+Students living outside of the NYC area have the option for free
+housing.</p>
+<p><strong>Eligibility</strong></p>
+<p>Applicants must represent one of the following groups:</p>
+<ul>
+<li>Racial/ethnic minorities (African-Americans,
+Hispanic/Latino-Americans, Native Americans or Alaskan Natives)</li>
+<li>Economically disadvantaged; these include:
+<ul>
+<li>Students currently receiving or who in the past have received:
+federal disadvantaged assistance, Health Profession Student loans (HPSL)
+for Disadvantaged Student Program, or scholarships from the U.S. DHHS
+under the Scholarship for Individuals with Exceptional Financial
+Need.</li>
+<li>Students from social, cultural, or educational environments that
+have demonstrably and recently directly inhibited the individual from
+obtaining the knowledge, skills, and abilities necessary to develop and
+participate in a research career.</li>
+</ul></li>
+<li>Physically or mentally disabled</li>
+</ul>
+<p>Qualified applicants to the program must:</p>
+<ul>
+<li>Be enrolled and have completed at least one year of undergraduate
+work at an accredited school or university OR be enrolled at a community
+or junior college, completing at least 3 courses per academic term.</li>
+<li>Have completed at least 1 semester of college calculus (regardless
+of academic major)</li>
+<li>Must be a U.S. citizen OR U.S. permanent resident.</li>
+<li>Complete and submit a program application by March 1, 2020</li>
+<li>Possible phone interview with a member(s) of the BEST admissions
+committee (following application submission)</li>
+</ul>
+<hr />
+</div>
+</div>
+<div
+id="hands-on-research-in-genomics-and-computational-biology-athens-ga"
+class="section level3">
+<h3><a
+href="https://www.genetics.uga.edu/fungal-genomics-and-computational-biology">Hands-on
+research in Genomics and Computational Biology</a> (Athens, GA)</h3>
+<div id="march-1-1" class="section level4">
+<h4>March 1</h4>
+<p>Hands-on research in Genomics and Computational Biology will bring
+participants recruited nationally from underrepresented groups to the
+University of Georgia campus for 10 weeks in the Summer.</p>
+<p>The first week involves lab safety training, learning to keep a lab
+notebook, participating in a sequence of group Genomics labs in the
+mornings, Computational labs in the afternoons, and Genomics lectures
+that will correspond with both the Genomics &amp; Computational Biology
+labs. Group posters from these labs will be prepared by the participants
+and presented at the ending poster session.</p>
+<p>The balance of the ten weeks will be spent in individual labs
+developing an independent research project in partnership with a faculty
+mentor. Individual posters will be completed, and there will be a poster
+session at the conclusion of the 10 week program.Work with the
+individual faculty mentors can continue during the coming academic year
+and eventually result in a publishable work. Our REU participants have
+published in Science, Nature, PNAS, and IEEE Access.</p>
+<p>Weekly seminars are held in career development and
+bioethics.Participants will be expected to participate in research at
+least 40 hours per week. Students may not enroll in classes or hold
+outside employment during the program. All participants are expected to
+stay for the full 10 weeks.</p>
+<p>Each participant will receive a $5,000 stipend toward food and
+expenses, travel money up to the program limit, a shared dorm room on
+the same floor with the NSF funded REU programs in Physics and
+Microbiology, free transportation on campus, lab safety training and
+preparation to work in any type scientific lab.</p>
+<p><strong>Eligibility</strong></p>
+<ul>
+<li>Applicants must be undergraduate students who are citizens or
+permanent residents of the United States.</li>
+<li>Students who have either graduated or recently completed all
+requirements for their degree are not eligible.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="two-sigma-new-york-ny" class="section level3">
+<h3><a
+href="https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Quantitative-Researcher-Internship/6035">Two
+Sigma</a> (New York, NY)</h3>
+<div id="march-1-2" class="section level4">
+<h4>March 1</h4>
+<p>As a quantitative research intern, you will take on the following
+responsibilities:</p>
+<p>Use the scientific method to develop sophisticated investment models
+and shape our insights into how the markets will behave Apply
+quantitative techniques such as machine learning to a vast array of data
+sets Create and test complex investment ideas and partner with our
+engineers to test your theories All the while, you’ll remain engaged in
+the academic community. As examples, you can do the following:</p>
+<ul>
+<li>Join our reading circles to stay up to date on the latest research
+papers in your fields</li>
+<li>Attend academic seminars to learn from thought leaders from top
+universities</li>
+</ul>
+<p>The internship program lasts 10 weeks in the summer and takes place
+at our Soho-based, New York City office. You will partner with an
+assigned mentor and work on a single project during the course of your
+time here, which will culminate in a final presentation.</p>
+<hr />
+</div>
+</div>
+<div
+id="the-university-of-north-carolina-center-for-aids-research-chapel-hill-nc"
+class="section level3">
+<h3>The University of North Carolina Center for AIDS Research] (Chapel
+Hill, NC)</h3>
+<div id="march-4-rolling-admission" class="section level4">
+<h4>March 4 (rolling admission)</h4>
+<p>The Biostatistics Core at UNC Center for AIDS Research is seeking a
+part‐time paid summer undergraduate intern (~20+ hours/week). The core
+helps design studies, analyze data, and advance statistical methods for
+HIV research at UNC and internationally.</p>
+<p>As a summer intern, you will have the opportunity to aid in
+statistical analysis and gain valuable experience in multidisciplinary
+research. Students majoring in math, statistics, computer science, data
+science, or another quantitative research field are invited to apply.
+You will gain valuable collaborative research experience.</p>
+<p>Students from underrepresented minorities majoring in any of the
+above fields are highly encouraged to apply. If you have R‐project, SAS,
+or Python coding experience, let us know. <a
+href="http://unccfar.org">Visit the website</a> to learn more about our
+research (Core: Biostatistics). Summer housing/relocation is the
+responsibility of the applicant.</p>
+<p>Contact: <a href="mailto:kmollan@unc.edu">Katie R. Mollan</a>, Center
+for AIDS Research, The University of North Carolina at Chapel Hill, 3126
+McGavran-Greenberg Hall, CB #7420; (919) 966-8421 (email preferred).</p>
+<hr />
+</div>
+</div>
+<div
+id="worcester-polytechnic-institute-summer-research-experience-in-data-science-worcester-ma"
+class="section level3">
+<h3><a
+href="https://www.wpi.edu/academics/departments/data-science/reu-program">Worcester
+Polytechnic Institute: Summer Research Experience in Data Science</a>
+(Worcester, MA)</h3>
+<div id="apps-open-in-january" class="section level4">
+<h4>Apps open in January</h4>
+<p>The Data Science Program at WPI, sponsored by the National Science
+Foundation, offers a 10-week, all expenses paid Research Experience in
+Data Science for undergraduate students. The WPI Data Science program
+has successfully operated the site since 2016. This site offers students
+from geographically diverse institutions around the country access to
+vibrant scientific research projects and undergraduate mentorship.</p>
+<p>The students, working with WPI faculty, graduate students, and peer
+students, learn state-of-the-art data science techniques and
+technologies including machine learning, artificial intelligence and big
+data technologies. They apply these new skills to research focused on
+solving societal challenges of high impact in our communities.</p>
+<p>Research topics include digital health, sustainability, and mobility,
+all interlinked concerns of critical national importance. Students
+present the results of their research at an Open Poster Session during
+the final week of the program, and, where appropriate, at scholarly
+venues and conferences.</p>
+<p><strong>Eligibility</strong></p>
+<ul>
+<li>US Citizens or Lawful Permanent Residents.</li>
+<li>We prefer sophomores and juniors who have a distinct interest in
+research, all U.S. students are eligible for the REU program. Those
+students who have succeeded in courses in programming, computer science,
+linear algebra, and statistics are of particular interest to our
+program. Women and underrepresented groups in STEM fields, as well as
+students from a community college who have transferred to a 4-year
+institution are encouraged to apply.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div
+id="north-carolina-state-university-duke-university-summer-institute-for-research-education-in-biostatistics-sibs"
+class="section level3">
+<h3><a href="http://www.stat.ncsu.edu/sibs/">North Carolina State
+University-Duke University: Summer Institute for Research Education in
+Biostatistics (SIBS)</a></h3>
+<div id="march-7" class="section level4">
+<h4>March 7</h4>
+<p>Biostatistics is the exciting field that applies statistics to
+medical and public health research. Biostatisticians work closely with
+experts from other fields in research teams. Together they seek to
+answer serious and important questions that affect human health and well
+being.</p>
+<p>The demand for biostatisticians TODAY is greater than ever before,
+and it is expected to continue to INCREASE in the future.</p>
+<p>The Summer Institute in Biostatistics (SIBS), sponsored by the
+National Heart, Lung, and Blood Institute (NHLBI), is a 6-week program
+to give undergraduate students majoring in or with background in the
+quantitative sciences the opportunity to explore a career in
+biostatistics.</p>
+<p>Our program has been offered every year since the Summer of 2004.
+Each year the program was a great success, with over 65% of eligible
+participants going on to graduate school in the field!</p>
+<p>We will be hosting our program June 8 – July 17, 2020, with an
+opening dinner on June 7.</p>
+<p><strong>Eligibility</strong></p>
+<ul>
+<li>Undergraduate students (including students who will have graduated
+in Spring 2020)</li>
+<li>US citizens or US Permanent Residents</li>
+</ul>
+<hr />
+</div>
+</div>
+<div
+id="university-of-colorado-denver-summer-institute-for-research-education-in-biostatistics-sibs-denver-co"
+class="section level3">
+<h3><a
+href="http://www.ucdenver.edu/academics/colleges/PublicHealth/Academics/departments/Biostatistics/CoSIBS/Pages/CoSIBS.aspx">University
+of Colorado Denver: Summer Institute for Research Education in
+Biostatistics (SIBS)</a> (Denver, CO)</h3>
+<div id="rolling-application-until-all-positions-filled"
+class="section level4">
+<h4>Rolling application until all positions filled</h4>
+<p>The summer institute for research education in biostatistics is a
+program sponsored by a grant from the National Heart Lung and Blood
+Institute (NHLBI) of the National Institutes of Health (NIH). The
+purpose of the NHLBI SIBS program is to introduce advanced undergraduate
+and early-stage graduate students to the field of biostatistics and the
+frontiers of data sciences. New technological advances have created
+exciting opportunities for the diagnosis, treatment, and prevention of
+disease. New methods in biostatistics and data sciences are needed to
+realize the potential of these technological advances. It is an exciting
+time for the development of these methods and to guide their translation
+into clinical care. Data sciences are the cornerstone of the foundation
+for the next advances in biomedical research.</p>
+<p>The 2020 CoSIBS program June 15-July 25 CoSIBS is a 6-week program
+that includes instruction in the theory and application of statistical
+methods in biomedical research. Students will have the opportunity to
+learn the leading computer software packages that are used in the data
+sciences. The CoSIBS program will culminate in a group project where
+students work with leading clinical researchers and biostatisticians on
+an applied research project. More detail on the course can be found on
+the program overview page.</p>
+<p><strong>Eligibility</strong></p>
+<ul>
+<li>Undergraduate students (including students who will have graduated
+in Spring 2020)</li>
+<li>US citizens or US Permanent Residents</li>
+</ul>
+</div>
+</div>
+<div
+id="university-of-michigan-summer-institute-for-research-education-in-biostatistics-sibs-ann-arbor-mi"
+class="section level3">
+<h3><a href="http://bigdatasummerinstitute.com">University of Michigan:
+Summer Institute for Research Education in Biostatistics (SIBS)</a> (Ann
+Arbor, MI)</h3>
+<div id="rolling-application-until-all-positions-filled-1"
+class="section level4">
+<h4>Rolling application until all positions filled</h4>
+<p>The Big Data Summer Institute, a SIBS program, is a six-week
+interdisciplinary training and research program in biostatistics that
+introduces undergraduate students to the intersection of big data and
+human health — a rapidly growing field that uses quantitative analysis
+to help solve scientific problems and improve people’s lives.</p>
+<p>Drawing from the expertise and experience of outstanding faculty of
+several departments at the University of Michigan — biostatistics,
+statistics, and electrical engineering and computer science — the
+institute exposes undergraduate students to diverse experiences and
+techniques that distinguishes it from any other undergraduate summer
+program in biostatistics in the country.</p>
+<p>This Summer Institute in Biostatistics (SIBS) program is sponsored by
+the National Heart, Lung, and Blood Institute (NHLBI), grant
+R25HL147207, with the intent to introduce undergrad students to the
+field of biostatistics. Courses will include data collected in studies
+of heart, lung, blood, and sleep disorders. To learn more about our
+sister programs, please visit the NHLBI SIBS program website.</p>
+<p>The Big Data Summer Institute is also sponsored by Flatiron
+Health.</p>
+<p>The Big Data Summer Institute, a SIBS program, is hosted by the
+University of Michigan School of Public Health. All coursework takes
+place at the school, on the University of Michigan campus in Ann Arbor,
+Michigan.</p>
+<p><strong>Eligibility</strong></p>
+<ul>
+<li>Be undergraduates at an accredited school or university</li>
+<li>Have an interest in scientific research</li>
+<li>Have some background knowledge of computing/programming and an
+introduction to the theory of probability, calculus and linear algebra;
+prerequisites are flexible</li>
+<li>Be a U.S. citizen or Permanent Resident</li>
+</ul>
+<p>For all applicants not meeting these four criteria for the SIBS
+program funding, there is a limited amount of slots funded by the Trehan
+Foundation and Rackham Graduate School. International students may apply
+for these slots.</p>
+<hr />
+</div>
+</div>
+<div id="iowa-summer-institute-in-biostatistics-isib-iowa-city-ia"
+class="section level3">
+<h3><a href="https://www.public-health.uiowa.edu/isib/">Iowa Summer
+Institute in Biostatistics (ISIB)</a> (Iowa City, IA)</h3>
+<div id="rolling-application-until-all-positions-filled-2"
+class="section level4">
+<h4>Rolling application until all positions filled</h4>
+<p>The objective of the Iowa Summer Institute in Biostatistics is to
+provide biostatistical research education and applied research
+opportunities to undergraduates. The Iowa Summer Institute in
+Biostatistics (ISIB), in its 11th year, is funded by the National
+Institute of Health (NIH) and the National Heart Lung and Blood
+Institute (NHLBI).</p>
+<p>The ISIB is a seven-week program. The structure of the program is
+through case based instruction of real biomedical research, computer
+laboratory training, research projects, and clinical and translational
+research enrichment activities.</p>
+<p>Coursework will focus on clinical trials, big data, translational
+research, and statistical models used in the analysis of biomedical
+studies. The course will further serve as a fundamental building block
+for students to understand the importance of biostatistics and its
+synergistic place in the biomedical sciences. Information on
+opportunities such as scholarships, training grant programs and
+assistantships in Biostatistics and Public Health will be presented to
+scholars. Scholars will be encouraged to apply to continue their
+graduate studies in biostatistics, statistics and/or data sciences and
+contribute toward the remedial of the current nationwide shortage of
+biostatisticians.</p>
+<p>One week into the program, scholars will be matched with a
+Biostatistics faculty member for their selected research project. The
+projects are designed to provide the opportunity to engage in medical
+science research through biostatistics. After a supervised research,
+trainees will present their accomplished projects to faculty and
+students at our concluding symposium.</p>
+<p><strong>Eligibility</strong></p>
+<ul>
+<li>Current undergraduate students and recent graduates majoring in
+mathematics, science or other quantitatively oriented areas of study are
+eligible.</li>
+<li>Applicants must be American citizens or permanent residents of the
+United States.</li>
+</ul>
+<hr />
+</div>
+</div>
+<div
+id="mathematical-biosciences-institute-mbi-undergraduate-summer-research-program"
+class="section level3">
+<h3><a
+href="https://mbi.osu.edu/events/2020-summer-reu-program">Mathematical
+Biosciences Institute (MBI) Undergraduate Summer Research
+Program</a></h3>
+</div>
+<div id="the-ohio-state-university-columbus-oh" class="section level3">
+<h3>THE Ohio State University (Columbus, OH)</h3>
+</div>
+<div id="arizona-state-university-tempe-az-1" class="section level3">
+<h3>Arizona State University (Tempe, AZ)</h3>
+</div>
+<div id="howard-university-washington-dc" class="section level3">
+<h3>Howard University (Washington, DC)</h3>
+</div>
+<div id="indiana-university-purdue-university-indianapolis-in"
+class="section level3">
+<h3>Indiana University-Purdue University (Indianapolis, IN)</h3>
+</div>
+<div id="university-of-notre-dame-notre-dame-in" class="section level3">
+<h3>University of Notre Dame (Notre Dame, IN)</h3>
+</div>
+<div id="university-of-pittsburgh-pittsburgh-pa" class="section level3">
+<h3>University of Pittsburgh (Pittsburgh, PA)</h3>
+</div>
+<div
+id="virginia-polytechnic-institute-and-virginia-state-university-blacksburg-va"
+class="section level3">
+<h3>Virginia Polytechnic Institute and Virginia State University
+(Blacksburg, VA)</h3>
+<div id="tbd" class="section level4">
+<h4>TBD</h4>
+<p>The Mathematical Biosciences Institute (MBI) is hosting a
+multi-institution REU program in the mathematical biosciences,
+facilitated by the Mathematical Biosciences Institute (MBI) located on
+the campus of The Ohio State University. The objectives of the program
+are:</p>
+<ol style="list-style-type: decimal">
+<li><p>to introduce a diverse cohort of undergraduate students to the
+mathematical biosciences, broadly interpreted to include areas such as
+biostatistics, bioinformatics, and computational biology, in addition to
+biologically-inspired mathematical modeling;</p></li>
+<li><p>to encourage students to pursue graduate study in the
+mathematical biosciences; and</p></li>
+<li><p>to increase the number of students who enter the workforce with
+training in this field.</p></li>
+</ol>
+<p>REU participants work on projects in areas such as molecular
+evolution, neuronal oscillatory patterning, cancer genetics, epidemics
+and vaccination strategies, and animal movement. Participants work
+individually or in pairs under the guidance of expert mentors to make
+specific research contributions in these areas, often leading to a
+peer-reviewed publication and conference presentations. The REU program
+incorporates various professional and research-skills development
+activities throughout the summer to help ensure the participants’
+success in completing their summer project and to prepare them for
+graduate study or entering the workforce.</p>
+<hr />
+</div>
+</div>
+</div>
+<div id="not-currently-active" class="section level1">
+<h1>Not currently active</h1>
+<div id="summer-research---early-identification-program-sr-eip"
+class="section level3">
+<h3><a
+href="http://www.theleadershipalliance.org/programs/summer-research">Summer
+Research - Early Identification Program (SR-EIP)</a></h3>
+<div id="february-1-2" class="section level4">
+<h4>February 1</h4>
+<p>SR-EIP offers closely mentored research experiences in the life and
+physical sciences, social and behavioral sciences, and the humanities at
+20 research institutions across the country. SR-EIP participants:</p>
+<ul>
+<li>Spend 8-10 weeks at a Leadership Alliance institution</li>
+<li>Receive a stipend, and travel and housing expenses from the research
+institution</li>
+<li>Work under the guidance of a faculty or research mentor</li>
+<li>Gain theoretical knowledge and practical training in academic
+research and scientific experimentation</li>
+<li>Make oral or poster presentations at the Leadership Alliance
+National Symposium</li>
+<li>Gain access to ongoing resources, mentoring and professional
+networks to support their chosen career path</li>
+</ul>
+<p>With one application, apply for a research experience at three summer
+research sites. Visit each institution’s website for specific
+information on opportunities and program requirements</p>
+<p>Participating research sites:</p>
+<p>Brown University<br>Columbia University<br>Cornell
+University<br>Dartmouth College<br>Harvard University<br>Johns Hopkins
+University<br>Montana State University | NYU<br>Princeton
+University<br>Stanford University<br>Tufts University<br>University of
+Chicago<br>University of Colorado Boulder<br>University of Maryland |
+University of Miami<br>University of Pennsylvania<br>University of
+Virginia<br>Vanderbilt University<br>Washington University<br>Weill
+Cornell<br>Yale University</p>
+<p><strong>Eligibility</strong></p>
+<ul>
+<li>Be currently enrolled full-time in an accredited public or private
+college or university in the United States or its territories, as
+recognized by the U.S. Department of Education.</li>
+<li>Be in good academic standing with a GPA of 3.0 or better.</li>
+<li>Demonstrate a committed interest to pursue graduate study toward a
+PhD or MD-PhD.</li>
+<li>Have completed at least two semesters and have at least one semester
+remaining of their undergraduate education by the start of the summer
+program.</li>
+<li>Be a documented U.S. citizen or non-citizen national, or permanent
+resident in possession of an alien registration receipt card (I-551) or
+other legal document of such status at the time of application.
+International citizens studying in the United States with an F-1 Visa
+are not eligible for the SR-EIP. Individuals seeking asylum or refugees
+are not eligible.</li>
+</ul>
+</div>
+</div>
+<div
+id="williams-college-mathematics-and-statistics-small-reu-williamstown-ma"
+class="section level3">
+<h3><a href="https://math.williams.edu/small/">Williams College:
+Mathematics and Statistics (SMALL) REU</a> (Williamstown, MA)</h3>
+<div id="first-or-second-wednesday-in-february" class="section level4">
+<h4>First or second Wednesday in February</h4>
+<p>The SMALL Undergraduate Research Project is a ten-week summer program
+(9 weeks at Williams and 1 week at home) in which undergraduates
+investigate open research problems in mathematics and statistics. One of
+the largest programs of its kind in the country, SMALL is supported in
+part by a National Science Foundation grant for Research Experiences for
+Undergraduates and by the Bronfman Science Center of Williams College.
+Around 500 students have participated in the project since its inception
+in 1988. Students work in small groups directed by individual faculty
+members. Many participants have published papers and presented talks at
+research conferences based on work done in SMALL. Some have gone on to
+complete PhDs in Mathematics and related fields.</p>
+<p>During off hours, students enjoy the many attractions of summer in
+the Berkshires: hiking, biking, plays, concerts, etc. Weekly lunches,
+teas, and casual sporting events bring SMALL students together with
+faculty and other students spending the summer doing research at
+Williams College. Participating students receive a stipend of about
+$4000. Several board plans are available at reasonable rates, with
+housing included for free. There are funds to help with travel to/from
+SMALL, as well as to support students to go to conferences to present
+their work. Students are required to live on campus to participate in
+the SMALL program. Having students live together on campus allows for
+the mathematical interaction to expand beyond the boundaries of the
+workday.</p>
+<p><strong>Eligibility</strong></p>
+<ul>
+<li>US Citizen or Permanent Resident or have a visa to work in the U.S.
+A student F-1 visa should be sufficient, but you might need to do
+additional paperwork. Just note on your application what visa you
+have.</li>
+<li>Undergraduate student at the time of the internship (ineligible once
+you have graduated)</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

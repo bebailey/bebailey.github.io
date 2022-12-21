@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+body {
+    font-family: 'Josefin Sans'; 
+    font-size: 14pt;
+}
+
+h1, h2, h3, h4, h5, h6, legend {
+  font-family: 'Josefin Sans'; 
+  margin-bottom: 0.5em;
+}
+
+.tocify {
+    width: 20%;
+    max-height: 90%;
+    overflow: auto;
+    margin-left: 2%;
+    position: fixed;
+    border: 0px solid #ccc;
+    border-radius: 6px;
+}
+
+#TOC::before {
+  content: "";
+  display: block;
+  height: 200px;
+  margin: 2em 20px 40px 20px;
+  background-image: url("img/brittney-bailey_2021-01-21.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-style: none;
+}
