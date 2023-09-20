@@ -29,12 +29,12 @@ navbar:
     - text: "Resources for Students"
       # icon: fa-toolbox
       menu:
-        - text: "Undergraduate internship opportunities"
-          href: https://profbailey.github.io/internships/
+        # - text: "Undergraduate internship opportunities"
+        #   href: https://profbailey.github.io/internships/
         - text: "Conferences"
           href: conferences.html
-        - text: "Archived internship opportunities (2019-2020)"
-          href: internship-archive.html
+        # - text: "Archived internship opportunities (2019-2020)"
+        #   href: internship-archive.html
         - text: ---
         - text: "Amherst College Students"
         - text: "Learn about the STEM Incubator Program"

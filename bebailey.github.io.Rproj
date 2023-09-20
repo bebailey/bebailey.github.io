@@ -13,3 +13,4 @@ RnwWeave: Sweave
 LaTeX: pdfLaTeX
 
 BuildType: Website
+WebsitePath: /Users/bebailey/Dropbox (Amherst College)/professional/bebailey.github.io
