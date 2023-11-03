@@ -36,7 +36,7 @@ If we have met and agreed that I will write a recommendation for you, I want to 
 
 # Attachments (preferably as pdfs):
 
-- an unofficial copy of your transcript (will be able to download from Workday beginning in Spring 2023),
+- an unofficial copy of your transcript (generate an unofficial transcript from the "My Academics" section of the "Academics" app on Workday),
 - the latest (preferably final) draft of your personal statement (if applicable),
 - the latest version of your resume or CV (if you have one), and
 - any necessary forms and/or login information for the application
