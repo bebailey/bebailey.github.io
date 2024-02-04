@@ -41,6 +41,10 @@ navbar:
           href: https://www.amherst.edu/about/science_at_amherst/stem-incubator
         - text: "Request a recommendation letter"
           href: rec-letters.html
+        # - text: "Work with me"
+        #   href: profbailey.github.io
+    - text: "Consulting"
+      href: consulting.html
     - text: "Contact"
       # icon: fa-calendar
       href: contact.html          

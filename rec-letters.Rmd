@@ -2,44 +2,57 @@
 title: "Reference letter request"
 ---
 
-Before asking for my letter I request that you commit to follow all guidelines and requirements for your program as your participation reflects more broadly on me and Amherst College. 
+Before asking for my letter I request that you commit to follow all guidelines and requirements for your program as your participation reflects more broadly on me and Amherst College. You should also consider what makes me particularly qualified to write a letter for you and how my letter might round out other letters or other aspects of your application.
 
 If we have met and agreed that I will write a recommendation for you, I want to write the strongest recommendation letter I possibly can. In order to do so, please email me the following **at least two weeks** (and ideally four+ weeks) before the first letter is due:
 
 
 # Responses to the following questions:
 
+## Required 
 1. What is your name, year, and major?
 
-2. For what are you applying and what is the earliest deadline? (scholarship, internship, graduate school, etc.)
 
-3. If applying to multiple programs, list the programs to which you are applying, together with due dates and how recommendations will be submitted (many programs automatically generate an email with a link for submission, but others might require me to send an email by the deadline).
+2. For what are you applying and what is the earliest deadline? (scholarship, internship, graduate school, etc.). *If you are planning to submit multiple applications, please eventually provide a list of the programs to which you are applying, together with due dates, relevant links, and how recommendations will be submitted*---many programs automatically generate an email with a link for submission, but others might require me to send an email to someone by the deadline. 
 
-4. How long have I known you, and what is (are) my relationship(s) to you? (instructor, advisor, etc.)
 
-5. For what class(es) have I had you, what final grade(s) did I assign you, and how did you distinguish yourself in my class(es)?
 
-6. Please choose four adjectives  you think describe you well.
+3. How long have I known you, and what is (are) my relationship(s) to you? (instructor, advisor, etc.)
 
-7. What are some of your academic accomplishments?
 
-8. What are some of your nonacademic accomplishments (if any)?
 
-9. What makes me particularly qualified to write a letter for you?
+4. For what class(es) have I had you, what final grade(s) did I assign you, and how did you distinguish yourself in my class(es)? 
 
-10. What makes you particularly qualified for this position/honor/award?
 
-11. What are your long term goals and, if relevant, how does this position/honor/award fit in?
+5. If you completed any projects with me (e.g., for Data Science class or as part of an internship or research project), please describe the project(s) and your contributions, with links to or copies of the final product. 
 
-12. Additional comments (REU's, summer research, interesting jobs, hobbies, etc.)?
+6. What do you think I should highlight or do you hope I will speak to as part of your recommendation letter? (e.g., mathematical abilities, intellectual curiosity, work ethic, ability to work independently, collaborative nature, a specific project?)
+
+
+7. What makes you particularly qualified for this position/honor/award?
+
+
+8. What are your long term goals and, if relevant, how does this opportunity your applying to fit in?
+
+
+
+## Useful but not required
+
+10. Please choose four adjectives you think describe you well.
+
+11. What are some of your academic accomplishments?
+
+12. What are some of your nonacademic accomplishments (if any)?
+
+13. Additional relevant information or comments (REU's, summer research, interesting jobs, hobbies, etc.)?
 
 
 # Attachments (preferably as pdfs):
 
-- an unofficial copy of your transcript (generate an unofficial transcript from the "My Academics" section of the "Academics" app on Workday),
-- the latest (preferably final) draft of your personal statement (if applicable),
-- the latest version of your resume or CV (if you have one), and
-- any necessary forms and/or login information for the application
+1. An *unofficial* copy of your most recent transcript (generate an unofficial transcript from the "My Academics" section of the "Academics" app on Workday).
+2. The latest draft of your personal statement, if applicable (I'm happy to provide feedback!).
+3. The latest version of your resume or CV.
+4. Any necessary additional forms for the application.
 
 Please be sure to send me email reminders as deadlines approach, and feel free to chat with me about other ways you can make the letter writing process go as smoothly as possible for you and your letter writers. Good luck!
 
