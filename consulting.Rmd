@@ -5,11 +5,13 @@ title: "Consulting services"
 
 I can work with you on any phase of a statistical project, including thinking through study design, refining hypotheses or questions of interest, planning for data management, writing statistical analysis plans, providing power or sample size calculations, cleaning data, carrying out statistical analyses, and writing up the statistical portions of a project, proposal, or manuscript.
 
-I offer the first consultation free up to one hour. Hourly rates for collaborations outside of Amherst College are set based on [UMass Statistical Consulting & Collaboration Rates for Faculty](https://www.umass.edu/mathematics-statistics/research/statistical-consulting) but I can work with you to establish a flat fee for a project depending on its nature and scope.
+I offer the first consultation conversation free up to one hour. Hourly rates for collaborations outside of Amherst College are set based on [UMass Statistical Consulting & Collaboration Rates for Faculty](https://www.umass.edu/mathematics-statistics/research/statistical-consulting) but I can work with you to establish a flat fee for a project depending on its nature and scope.
+
+> **Note**: Amherst students should reach out to the [Statistics and Data Science Fellows](https://www.amherst.edu/academiclife/departments/mathematics-statistics/major-in-statistics/statistics-fellows) for statistical support. Contact the current [Chair of Statistics](https://www.amherst.edu/academiclife/departments/mathematics-statistics/faculty) for details.
 
 Collaborations work best when I can work with you from the earliest planning stages, so please don't hesitate to reach out!
 
-**Note**: Amherst students should reach out to the [Statistics and Data Science Fellows](https://www.amherst.edu/academiclife/departments/mathematics-statistics/major-in-statistics/statistics-fellows) for statistical support. Contact the current [Chair of Statistics](https://www.amherst.edu/academiclife/departments/mathematics-statistics/faculty) for details.
+
 <!--
 # Areas of expertise
 
@@ -24,12 +26,10 @@ I have
 
 Use the links below to schedule a meeting with me. 
 
-| Amherst | Everyone else |
-| :-----: | :-----: |
-| [20 minutes](https://fantastical.app/bebailey/student-20) | [20 minutes](https://fantastical.app/bebailey/20min) | 
-| [30 minutes](https://fantastical.app/bebailey/student-30) | [30 minutes](https://fantastical.app/bebailey/30min)|
-| [40 minutes](https://fantastical.app/bebailey/student-40) | [40 minutes](https://fantastical.app/bebailey/40min) |
-| [60 minutes](https://fantastical.app/bebailey/student-60) | [60 minutes](https://fantastical.app/bebailey/60min) |
+* [20 minutes](https://fantastical.app/bebailey/20min) 
+* [30 minutes](https://fantastical.app/bebailey/30min)
+* [40 minutes](https://fantastical.app/bebailey/40min) 
+* [60 minutes](https://fantastical.app/bebailey/60min)
 
 
 
